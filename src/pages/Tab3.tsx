@@ -1,30 +1,17 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonIcon } from '@ionic/react';
+import { logoPaypal } from 'ionicons/icons';
 import './Tab3.css';
-import IframeResizer from 'iframe-resizer-react';
-
-const styleWebformIframeEmbed: React.CSSProperties = {
-  width: '1px',
-  minWidth: '100%',
-  height: '100%'
-};
 
 const Tab3: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 3</IonTitle>
+          <IonTitle>CLHA | Donate</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
-      <IframeResizer
-        src="https://www.paypal.com/donate?hosted_button_id=GXRQVNFFU49UQ"
-        title="CLHA | Donate"
-        frameBorder="0"
-        allowFullScreen
-        style={styleWebformIframeEmbed}
-      />
+      <IonButton href='https://www.paypal.com/donate/?hosted_button_id=GXRQVNFFU49UQ' color="warning"><IonIcon slot="start" icon={logoPaypal} /> Donate to CLHA</IonButton>
     </IonContent>
     </IonPage>
   );
