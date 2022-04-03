@@ -20,7 +20,7 @@ const Tab2: React.FC = () => {
               <p>- Book private parties in our unique venue</p>
             </IonText>
           </div>
-          <IonButton className='visitBtn' href='https://lassensresort.org/experiences/' color='secondary'>Checkout our Experiences</IonButton>
+          <IonButton className='visitBtn' href='https://lassensresort.org/experiences/' color='secondary'>Check out our Experiences</IonButton>
         </div>
       </IonContent>
     </IonPage>
