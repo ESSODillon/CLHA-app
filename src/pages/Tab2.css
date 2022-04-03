@@ -1,0 +1,33 @@
+.visitWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.visitImg {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.visitText {
+  width: 80%;
+  margin: 20px auto;
+}
+
+h1 {
+  font-family: AbrihamLincoln;
+  font-size: 32px !important;
+}
+
+p {
+  font-family: CenturyGothic;
+  font-size: 20px !important;
+}
+
+.visitBtn {
+  width: 75%;
+  margin: 20px 12.5%;
+}
