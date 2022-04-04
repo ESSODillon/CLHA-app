@@ -1,6 +1,7 @@
 {
   "name": "ionic-app-base",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@ionic/react": "^6.0.0",
