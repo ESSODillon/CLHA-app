@@ -19,7 +19,7 @@ const Tab1: React.FC = () => {
       <IonContent fullscreen>
       <IframeResizer
         src="https://mywebar.com/p/Armchair4745"
-        title="CLHA | Volunteer"
+        title="AR Demo"
         frameBorder="0"
         width="340" 
         height="600" 
