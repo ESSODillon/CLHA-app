@@ -1,0 +1,28 @@
+.donateWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  width: fit-content;
+  margin: 0 auto;
+  font-family: AbrihamLincoln;
+  font-size: 32px !important;
+}
+
+p {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  font-family: CenturyGothic;
+  font-size: 20px !important;
+}
+
+.donateBtn {
+  width: 75%;
+  margin: 20px 12.5%;
+}
