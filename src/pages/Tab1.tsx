@@ -1,4 +1,4 @@
-import { IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonImg } from '@ionic/react';
 import './Tab1.css';
 
 const styleWebformIframeEmbed: React.CSSProperties = {
@@ -15,6 +15,10 @@ const Tab1: React.FC = () => {
           <IonTitle>CLHA | Map</IonTitle>
         </IonToolbar>
       </IonHeader>
+      <IonContent>
+      <IonImg className='mapImg' src='/assets/CLHA/Resort_Map_wall.jpg'></IonImg>
+
+      </IonContent>
     </IonPage>
   );
 };
