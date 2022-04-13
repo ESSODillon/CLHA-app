@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .visitImg {
@@ -14,7 +14,7 @@
 
 .visitText {
   width: 80%;
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
 h1 {
@@ -23,11 +23,12 @@ h1 {
 }
 
 p {
+  margin: 20px auto !important;
   font-family: CenturyGothic;
   font-size: 20px !important;
 }
 
 .visitBtn {
   width: 75%;
-  margin: 20px 12.5%;
+  margin: 0 12.5%;
 }
