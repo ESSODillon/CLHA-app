@@ -9,14 +9,14 @@
 
 h1 {
   width: fit-content;
-  margin: 0 auto;
+  margin: 50px auto !important;
   font-family: AbrihamLincoln;
   font-size: 32px !important;
 }
 
 p {
   width: 80%;
-  margin: 50px auto;
+  margin: 0 auto;
   text-align: center;
   font-family: CenturyGothic;
   font-size: 20px !important;
@@ -24,5 +24,5 @@ p {
 
 .donateBtn {
   width: 75%;
-  margin: 20px 12.5%;
+  margin: 50px 12.5%;
 }
