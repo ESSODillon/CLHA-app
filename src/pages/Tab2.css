@@ -14,7 +14,8 @@
 
 .visitText {
   width: 80%;
-  margin: 50px auto;
+  margin: 50px auto !important;
+  margin-top: 0 !important;
 }
 
 h1 {
