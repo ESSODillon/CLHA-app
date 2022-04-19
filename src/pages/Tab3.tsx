@@ -13,9 +13,9 @@ const Tab3: React.FC = () => {
       <IonContent color='medium'>
         <div className='donateWrapper'>
           <IonText>
-            <h1>Be a part of history</h1>
+            <h1 className='dontateHeader'>Be a part of history</h1>
             <p>Help us present the relevvance of Cedar Lake</p>
-            <h1>Donate with PayPal</h1>
+            <h1 className='dontateHeader'>Donate with PayPal</h1>
           </IonText>
           <IonText>
             <p>Every donation helps us present the relevance of and tell the story of Cedar Lake. Make a one-time or recurring gift with this secure PayPal link.</p>

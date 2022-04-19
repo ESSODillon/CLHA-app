@@ -1,3 +1,8 @@
+@font-face {
+  font-family: AbrahamLincoln;
+  src: url("../../public/assets/fonts/AbrahamLincoln.ttf");
+}
+
 .visitWrapper {
   width: 100%;
   height: 100%;
@@ -18,9 +23,9 @@
   margin-top: 0 !important;
 }
 
-h1 {
-  font-family: AbrihamLincoln;
-  font-size: 32px !important;
+.visitHeader {
+  font-family: AbrahamLincoln !important;
+  font-size: 48px !important;
 }
 
 p {

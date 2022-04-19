@@ -1,28 +1,28 @@
 .mapImg {
-    height: 204vw;
-    width: 100vw;
-    background-image: url(../../public/assets/CLHA/Resort_Map_wall.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
+  height: 204vw;
+  width: 100vw;
+  background-image: url(../../public/assets/CLHA/Resort_Map_wall.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
 }
 
 .pinpoint {
-    border: red 2px solid;
-    position: absolute;
-    cursor: pointer;
+  border: red 2px solid;
+  position: absolute;
+  cursor: pointer;
 }
 
-.shady_beach {  
-    height: 12vw;
-    width: 12vw;
-    bottom: 4vw;
-    left: 34vw; 
+.shady_beach {
+  height: 12vw;
+  width: 12vw;
+  bottom: 4vw;
+  left: 34vw;
 }
 
-.surprise_park {  
-    height: 12vw;
-    width: 12vw;
-    bottom: 20vw;
-    left: 64vw; 
+.surprise_park {
+  height: 12vw;
+  width: 12vw;
+  bottom: 20vw;
+  left: 64vw;
 }

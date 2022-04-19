@@ -13,7 +13,7 @@ const Tab2: React.FC = () => {
         <div className='visitWrapper'>
           <IonImg className='visitImg' src='/assets/CLHA/Museum_at_Lassens_Logo_Small_RGB.png'></IonImg>
           <div className='visitText'>
-            <IonText color='secondary'><h1>Experiences:</h1></IonText>
+            <IonText color='secondary'><h1 className="visitHeader">Experiences:</h1></IonText>
             <IonText color='tertiary'>
               <p>- Museum tours open May through September</p>
               <p>- Special events year round</p>
