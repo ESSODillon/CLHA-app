@@ -33,3 +33,7 @@
   bottom: 81vw;
   left: 74vw;
 }
+
+.map--card {
+    height: max-content;
+}

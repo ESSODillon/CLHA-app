@@ -12,6 +12,8 @@ import {
   IonCardHeader,
   IonCardTitle,
   IonCardSubtitle,
+  IonInfiniteScroll,
+  IonInfiniteScrollContent,
 } from "@ionic/react";
 import "./Tab1.css";
 
@@ -63,20 +65,22 @@ export default function Tab1() {
         {mapData.length > 1 && (
           <IonModal
             isOpen={showModal}
+            className="map--card"
             swipeToClose={true}
             onDidDismiss={() => setShowModal(false)}
           >
-            <IonButton onClick={() => setShowModal(false)}>Close</IonButton>
-            <IonCard>
-              <IonCardHeader>
-                <IonCardSubtitle>{mapData[pinpoint].time}</IonCardSubtitle>
-                <IonCardTitle>{mapData[pinpoint].name}</IonCardTitle>
-              </IonCardHeader>
-
-              {mapData[pinpoint].description.map((paragraph) => (
-                <IonCardContent>{paragraph}</IonCardContent>
-              ))}
-            </IonCard>
+            <IonContent>
+              <IonButton onClick={() => setShowModal(false)}>Close</IonButton>
+              <IonCard className="map--card">
+                <IonCardHeader>
+                  <IonCardSubtitle>{mapData[pinpoint].time}</IonCardSubtitle>
+                  <IonCardTitle>{mapData[pinpoint].name}</IonCardTitle>
+                </IonCardHeader>
+                {mapData[pinpoint].description.map((paragraph) => (
+                  <IonCardContent>{paragraph}</IonCardContent>
+                ))}
+              </IonCard>
+            </IonContent>
           </IonModal>
         )}
       </IonContent>
