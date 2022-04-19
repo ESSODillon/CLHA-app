@@ -1,12 +1,31 @@
 [
     {
+        "id": 0,
         "name": "Coffin's Shady Beach", 
         "time": "ca. 1919-1960s", 
-        "description": "Cordie Coffin and his mother, Emma, bought Obadiah Taylor, III's, land at the south end of Cedar Lake about 1916. The property stretched close to Cline Avenue and even included part of present-day Pine Crest Marina. Cordie left the area to serve in WWI and returned in 1919 to start Coffin's Shady Beach. Before the cabins were built, guests stayed in tents. By 1950, Cordie's son, Merritt, took over the resort. He added a steel-walled, two-story slide. A two-person cart with steel wheels was used on the waterslide, and a six-foot toboggan was used in the winter.  Merritt's son, Larry, and his wife, Sue, managed the resort for about six years. Coffin's Shady Beach became a private resort in the 1960s. Throughout the years, some parcels were sold. In 1990, Merritt's son, Terry, bought the resort and sold the last five acres about 2000. Beginning in 2006, five private residences were developed on the resort."
+        "description": [
+            "Cordie Coffin and his mother, Emma, bought Obadiah Taylor, III's, land at the south end of Cedar Lake about 1916. The property stretched close to Cline Avenue and even included part of present-day Pine Crest Marina. Cordie left the area to serve in WWI and returned in 1919 to start Coffin's Shady Beach. Before the cabins were built, guests stayed in tents. By 1950, Cordie's son, Merritt, took over the resort. He added a steel-walled, two-story slide. A two-person cart with steel wheels was used on the waterslide, and a six-foot toboggan was used in the winter.  Merritt's son, Larry, and his wife, Sue, managed the resort for about six years. Coffin's Shady Beach became a private resort in the 1960s. Throughout the years, some parcels were sold. In 1990, Merritt's son, Terry, bought the resort and sold the last five acres about 2000. Beginning in 2006, five private residences were developed on the resort."
+        ]
     },
     {
+        "id": 1,
         "name": "Surprise Park", 
         "time": "ca. 1928-1980s", 
-        "description": "The Peter Surprise family settled in south Lake County in the 1830s. Son, William, built a log cabin on the property. In 1928, William's son, Glenn, started Surprise Park. It featured a golf course, clubhouse built on piers over the water, and waterslide. The park also included amphibious plane rides. The ditch on the property was dug by Glenn using dynamite to have a water supply to water the golf course. U.S. Golf Architects, Inc. with the help of legendary golfer, Charles 'Chick' Evans, designed the 18-hole golf course. The park was closed during WWII. The property was sold a couple of times in the 1960s. Cecil and Mary Hays bought the property in the mid-1970s and it became South Shore Country Club. The clubhouse on the shoreline was built in 1980."
-    } 
+        "description": [
+            "The Peter Surprise family settled in south Lake County in the 1830s. Son, William, built a log cabin on the property. In 1928, William's son, Glenn, started Surprise Park. It featured a golf course, clubhouse built on piers over the water, and waterslide. The park also included amphibious plane rides. The ditch on the property was dug by Glenn using dynamite to have a water supply to water the golf course. U.S. Golf Architects, Inc. with the help of legendary golfer, Charles 'Chick' Evans, designed the 18-hole golf course. The park was closed during WWII. The property was sold a couple of times in the 1960s. Cecil and Mary Hays bought the property in the mid-1970s and it became South Shore Country Club. The clubhouse on the shoreline was built in 1980."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Lassen's Resort", 
+        "time": "ca. 1896-1944", 
+        "description": [
+            "The Lassen family came to Cedar Lake from Chicago in 1896. As boating enthusiasts, it was the lake that drew them here. Eldest son, Chris Lassen, began resort operations with a single steamboat that would ferry passengers between the Monon depot and the resort, as well as around the lake. He named the operation the Dewey Line after Admiral Dewey of the Spanish-American war. His fleet eventually grew to six boats with names like Big Dewey, Little Dewey, Steamer Dewey, and Baby Dewey. In 1902, a dance pavilion was built 300 feet off-shore by driving wood pilings into the lakebed and building the structure above. A restaurant was added on to the dance pavilion by 1912. The pier also included a tavern and a lunch counter and was the largest pier of its kind over a body of water in Indiana. ", 
+            
+            "In 1890, Armour Brothers & Company established ice interests at the lake's northwestern shore in the village of Armour. Each winter, the company took ice from the frozen lake to ship via the Monon railway to their meat-packing business in south Chicago. Three local carpenters, Nicholas Mager, Charles Wheeler and Kinzie Witter, built a boarding house for Armour's seasonal workforce. Near the end of WWI, Armour discontinued ice farming at Cedar Lake. Chris Lassen bought the boarding house to repurpose it as a hotel on his acreage. The building was gutted in the winter of 1919, put on sledges, and pulled across the frozen lake to its present site. Chris, along with his brothers Tom and Harry, dismantled the Armour ice barns and used the lumber to build the lakefront wing of the building in 1920. Lassen's Resort Hotel opened on May 7, 1921.", 
+            
+            "Lassen's Resort also included bath houses, a waterslide, diving platform, and swings in the lake, a duck pond, boat/automobile garage, six cottages, an orchard, and a miniature golf course. In 1944, Chris sold the property to the Lake Region Christian Assembly for use as a summer camp. In 1976, the Town of Cedar Lake purchased the grounds.", 
+            
+            "The Cedar Lake Historical Association organized in 1977 and leased the hotel from the town to establish a museum to present the relevance of Cedar Lake history. In 1980, the old Lassen Hotel was placed on the Indiana State Registry of Historic Places, and in 1981, on the National Register of Historic Places. It opened as the Lake of the Red Cedars Museum in October 1986. On May 7, 2021, on the occassion of the 100th Anniversary of the hotel's grand opening, it was re-themed as The Museum at Lassen's Resort to embrace its founding heritage. Visit lassensresort.org to discover the museum experiences that await you."]
+    }
 ]

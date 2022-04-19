@@ -51,6 +51,13 @@ export default function Tab1() {
               setShowModal(true);
             }}
           ></div>
+          <div
+            className="pinpoint lassens_resort"
+            onClick={() => {
+              setPinpoint(2);
+              setShowModal(true);
+            }}
+          ></div>
         </div>
 
         {mapData.length > 1 && (
@@ -66,7 +73,9 @@ export default function Tab1() {
                 <IonCardTitle>{mapData[pinpoint].name}</IonCardTitle>
               </IonCardHeader>
 
-              <IonCardContent>{mapData[pinpoint].description}</IonCardContent>
+              {mapData[pinpoint].description.map((paragraph) => (
+                <IonCardContent>{paragraph}</IonCardContent>
+              ))}
             </IonCard>
           </IonModal>
         )}
