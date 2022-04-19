@@ -1,22 +1,6 @@
 [
     {
         "id": 0,
-        "name": "Coffin's Shady Beach", 
-        "time": "ca. 1919-1960s", 
-        "description": [
-            "Cordie Coffin and his mother, Emma, bought Obadiah Taylor, III's, land at the south end of Cedar Lake about 1916. The property stretched close to Cline Avenue and even included part of present-day Pine Crest Marina. Cordie left the area to serve in WWI and returned in 1919 to start Coffin's Shady Beach. Before the cabins were built, guests stayed in tents. By 1950, Cordie's son, Merritt, took over the resort. He added a steel-walled, two-story slide. A two-person cart with steel wheels was used on the waterslide, and a six-foot toboggan was used in the winter.  Merritt's son, Larry, and his wife, Sue, managed the resort for about six years. Coffin's Shady Beach became a private resort in the 1960s. Throughout the years, some parcels were sold. In 1990, Merritt's son, Terry, bought the resort and sold the last five acres about 2000. Beginning in 2006, five private residences were developed on the resort."
-        ]
-    },
-    {
-        "id": 1,
-        "name": "Surprise Park", 
-        "time": "ca. 1928-1980s", 
-        "description": [
-            "The Peter Surprise family settled in south Lake County in the 1830s. Son, William, built a log cabin on the property. In 1928, William's son, Glenn, started Surprise Park. It featured a golf course, clubhouse built on piers over the water, and waterslide. The park also included amphibious plane rides. The ditch on the property was dug by Glenn using dynamite to have a water supply to water the golf course. U.S. Golf Architects, Inc. with the help of legendary golfer, Charles 'Chick' Evans, designed the 18-hole golf course. The park was closed during WWII. The property was sold a couple of times in the 1960s. Cecil and Mary Hays bought the property in the mid-1970s and it became South Shore Country Club. The clubhouse on the shoreline was built in 1980."
-        ]
-    },
-    {
-        "id": 2,
         "name": "Lassen's Resort", 
         "time": "ca. 1896-1944", 
         "description": [
@@ -27,5 +11,65 @@
             "Lassen's Resort also included bath houses, a waterslide, diving platform, and swings in the lake, a duck pond, boat/automobile garage, six cottages, an orchard, and a miniature golf course. In 1944, Chris sold the property to the Lake Region Christian Assembly for use as a summer camp. In 1976, the Town of Cedar Lake purchased the grounds.", 
             
             "The Cedar Lake Historical Association organized in 1977 and leased the hotel from the town to establish a museum to present the relevance of Cedar Lake history. In 1980, the old Lassen Hotel was placed on the Indiana State Registry of Historic Places, and in 1981, on the National Register of Historic Places. It opened as the Lake of the Red Cedars Museum in October 1986. On May 7, 2021, on the occassion of the 100th Anniversary of the hotel's grand opening, it was re-themed as The Museum at Lassen's Resort to embrace its founding heritage. Visit lassensresort.org to discover the museum experiences that await you."]
+    },
+    {
+        "id": 1,
+        "name": "Binyon's Resort", 
+        "time": "ca. 1877-1930s", 
+        "description": [
+            "John Binyon and his son, Christopher, purchased property in 1877 south of the dam at the Cedar Creek outlet, at the area now known as Binyon's Point, and established Binyon's Hotel. The first hotel was on the point, close to the water. At a later time, it was sold to Harry Clark, then to Luke Trotter.",
+
+            "Christopher and his wife Flora had a two-story hotel built east of the original hotel in 1900. The resort had a good reputation and was known for its 25 cent chicken dinners, which cost 50 cents by 1920. Up to as many as 500 chickens were dressed each weekend and the resort frequently fed 200 guests at a time. Binyon's offered boating, with a boat house containing 50 boats, fishing, and was one of the few resorts that offered winter recreation such as ice skating. A ledger from the hotel shows 17 meals for a total of $3.10 and a room for $2.00 a week.",
+
+            "By the 1940s, Christopher and Flora's son, Hal 'Bud' Binyon, had opened Binyon's Restaurant in Chicago and continued the tradition of family service to its customers until about 1987. There is no relation to the Binion family of casino fame."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Toomey's Park", 
+        "time": "ca. 1890-1970", 
+        "description": [
+            "South of Binyon's, John Toomey established a park about 1890. He constructed several buildings, including a hotel. He acquired the old Binyon School building and converted it into a dance hall. The park also included a tavern and beach. The hotel burned in the 1940s and was re-built. The park was closed in the 1970s. A fire in the 1990s claimed another of the historic structures."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Shamrock Inn", 
+        "time": "ca. 1890-1930s", 
+        "description": [
+            "At about 1890, Charles and Nellie Straight had a hotel here. It consisted of a restaurant and bar room on the main floor and guest rooms upstairs. They operated it until about 1920, when James Crocker became the new proprietor. It was well-known for its chicken dinners, boating, bathing, fishing and dancing. By the 1940s, Eugene and Geraldine Quinn purchased the property and became known as Quinn's Cottages."
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Sans Souci Hotel", 
+        "time": "ca. 1884-1930s", 
+        "description": [
+            "Local builder, Charles Sigler, constructed this small hotel about 1884. The name is French for “without worries.” He and his wife, Martha, ran it until the early 1910s, when it was known briefly as Winkler's Hotel. In 1914, Ernst Krautwald became the next owner and it was again known as the Sans Souci Hotel. James Crocker was the last known owner in 1928. When Crocker purchased the hotel, he spent thousands of dollars modernizing it by adding more rooms and building a mezzanine balcony for dancing, which also provided a great view of the lake. The beautiful grounds had 260 feet of lake frontage. It was known for its steak and chicken dinners. Through its years it served as an escape for musicians. Legend has it that at one time Jazz musician, Paul Ash, climbed to the roof of the hotel at 5:00 A.M. and woke up the neighborhood when he played the “Wabash Blues."
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Olsen Hotels 1 and 2", 
+        "time": "ca. 1880s-1930", 
+        "description": [
+            "At about the turn of the twentieth century, the Olsen family settled at this spot. They were boat builders and established a Norwegian Boat Club here, which included two hotels that served their guests at Cedar Lake for years."
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Surprise Park", 
+        "time": "ca. 1928-1980s", 
+        "description": [
+            "The Peter Surprise family settled in south Lake County in the 1830s. Son, William, built a log cabin on the property. In 1928, William's son, Glenn, started Surprise Park. It featured a golf course, clubhouse built on piers over the water, and waterslide. The park also included amphibious plane rides. The ditch on the property was dug by Glenn using dynamite to have a water supply to water the golf course. U.S. Golf Architects, Inc. with the help of legendary golfer, Charles 'Chick' Evans, designed the 18-hole golf course. The park was closed during WWII. The property was sold a couple of times in the 1960s. Cecil and Mary Hays bought the property in the mid-1970s and it became South Shore Country Club. The clubhouse on the shoreline was built in 1980."
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Coffin's Shady Beach", 
+        "time": "ca. 1919-1960s", 
+        "description": [
+            "Cordie Coffin and his mother, Emma, bought Obadiah Taylor, III's, land at the south end of Cedar Lake about 1916. The property stretched close to Cline Avenue and even included part of present-day Pine Crest Marina. Cordie left the area to serve in WWI and returned in 1919 to start Coffin's Shady Beach. Before the cabins were built, guests stayed in tents. By 1950, Cordie's son, Merritt, took over the resort. He added a steel-walled, two-story slide. A two-person cart with steel wheels was used on the waterslide, and a six-foot toboggan was used in the winter.  Merritt's son, Larry, and his wife, Sue, managed the resort for about six years. Coffin's Shady Beach became a private resort in the 1960s. Throughout the years, some parcels were sold. In 1990, Merritt's son, Terry, bought the resort and sold the last five acres about 2000. Beginning in 2006, five private residences were developed on the resort."
+        ]
     }
 ]

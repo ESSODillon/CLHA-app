@@ -77,7 +77,7 @@ export default function Tab1() {
                   <IonCardTitle>{mapData[pinpoint].name}</IonCardTitle>
                 </IonCardHeader>
                 {mapData[pinpoint].description.map((paragraph) => (
-                  <IonCardContent>{paragraph}</IonCardContent>
+                  <IonCardContent key={paragraph}>{paragraph}</IonCardContent>
                 ))}
               </IonCard>
             </IonContent>
