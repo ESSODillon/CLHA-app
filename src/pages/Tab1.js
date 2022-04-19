@@ -7,6 +7,11 @@ import {
   IonToolbar,
   IonModal,
   IonButton,
+  IonCard,
+  IonCardContent,
+  IonCardHeader,
+  IonCardTitle,
+  IonCardSubtitle,
 } from "@ionic/react";
 import "./Tab1.css";
 
@@ -55,7 +60,14 @@ export default function Tab1() {
             onDidDismiss={() => setShowModal(false)}
           >
             <IonButton onClick={() => setShowModal(false)}>Close</IonButton>
-            <p>{mapData[pinpoint].name}</p>
+            <IonCard>
+              <IonCardHeader>
+                <IonCardSubtitle>{mapData[pinpoint].time}</IonCardSubtitle>
+                <IonCardTitle>{mapData[pinpoint].name}</IonCardTitle>
+              </IonCardHeader>
+
+              <IonCardContent>{mapData[pinpoint].description}</IonCardContent>
+            </IonCard>
           </IonModal>
         )}
       </IonContent>
