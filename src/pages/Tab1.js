@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import {
   IonContent,
   IonHeader,
@@ -12,8 +12,6 @@ import {
   IonCardHeader,
   IonCardTitle,
   IonCardSubtitle,
-  IonInfiniteScroll,
-  IonInfiniteScrollContent,
 } from "@ionic/react";
 import "./Tab1.css";
 
@@ -28,7 +26,7 @@ export default function Tab1() {
       .then((data) => {
         setMapData(data);
       });
-  }, []);
+  }, [pinpoint]);
 
   return (
     <IonPage>
@@ -40,23 +38,23 @@ export default function Tab1() {
       <IonContent>
         <div className="mapImg">
           <div
-            className="pinpoint shady_beach"
+            className="pinpoint lassens_resort"
             onClick={() => {
               setPinpoint(0);
               setShowModal(true);
             }}
           ></div>
           <div
-            className="pinpoint surprise_park"
+            className="pinpoint shady_beach"
             onClick={() => {
-              setPinpoint(1);
+              setPinpoint(7);
               setShowModal(true);
             }}
           ></div>
           <div
-            className="pinpoint lassens_resort"
+            className="pinpoint surprise_park"
             onClick={() => {
-              setPinpoint(2);
+              setPinpoint(6);
               setShowModal(true);
             }}
           ></div>
@@ -65,19 +63,18 @@ export default function Tab1() {
         {mapData.length > 1 && (
           <IonModal
             isOpen={showModal}
-            className="map--card"
             swipeToClose={true}
             onDidDismiss={() => setShowModal(false)}
           >
             <IonContent>
               <IonButton onClick={() => setShowModal(false)}>Close</IonButton>
-              <IonCard className="map--card">
+              <IonCard>
                 <IonCardHeader>
                   <IonCardSubtitle>{mapData[pinpoint].time}</IonCardSubtitle>
                   <IonCardTitle>{mapData[pinpoint].name}</IonCardTitle>
                 </IonCardHeader>
                 {mapData[pinpoint].description.map((paragraph) => (
-                  <IonCardContent key={paragraph}>{paragraph}</IonCardContent>
+                  <IonCardContent>{paragraph}</IonCardContent>
                 ))}
               </IonCard>
             </IonContent>

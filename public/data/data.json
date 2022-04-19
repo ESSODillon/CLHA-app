@@ -71,5 +71,39 @@
         "description": [
             "Cordie Coffin and his mother, Emma, bought Obadiah Taylor, III's, land at the south end of Cedar Lake about 1916. The property stretched close to Cline Avenue and even included part of present-day Pine Crest Marina. Cordie left the area to serve in WWI and returned in 1919 to start Coffin's Shady Beach. Before the cabins were built, guests stayed in tents. By 1950, Cordie's son, Merritt, took over the resort. He added a steel-walled, two-story slide. A two-person cart with steel wheels was used on the waterslide, and a six-foot toboggan was used in the winter.  Merritt's son, Larry, and his wife, Sue, managed the resort for about six years. Coffin's Shady Beach became a private resort in the 1960s. Throughout the years, some parcels were sold. In 1990, Merritt's son, Terry, bought the resort and sold the last five acres about 2000. Beginning in 2006, five private residences were developed on the resort."
         ]
+    },
+    {
+        "id": 8,
+        "name": "Monon Park 1", 
+        "time": "ca. 1881-1895", 
+        "description": [
+            "When the Monon Railroad was completed through Cedar Lake in 1881, railroad officials recognized Cedar Lake's beauty and its potential to be utilized like Lake Geneva, Wisconsin. The railroad created a recreation park at Cedar Lake to increase the ridership of their passenger trains and increase profits for the railroad. The first location of Monon Park was in what is now known as Noble Oaks Subdivision, on land once owned by John Du Breuill. The railroad leased the land from Mr. Du Breuill and asked him to build a pier and maintain 40 rowboats. He also built a hotel on his property and a dance hall. Monon Park served guests in a carnival style, with a midway and a variety of vendors selling cold drinks, ice cream and other novelties.",
+
+            "The link to Chicago brought gamblers, pick-pockets, and other criminals on the Monon too. With the consumption of alcoholic beverages, fights were common. Chicago policemen came to police the area and they clashed with the jurisdiction of local authorities. By 1895, as many five passenger trains stopped here daily. Monon Park was becoming overcrowded. When Mr. Du Breuill died and his estate was being split up by his heirs, the railroad had to look for a new location."
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Webber/Paisley Hotel", 
+        "time": "ca. 1879-1930s", 
+        "description": [
+            "Mark Webber built his two-story hotel about 1879. It was often referred to as the 'Paisley House' or 'Paisley Hotel' since it was located in the village of Paisley. The building was tucked into a sloping hill. A saloon with a long bar, barstools, and a row of spittoons were contained in the cellar. It also had five pool tables and a large storeroom in the back where goods were kept. Mr. Webber kept two steamboats and many fishing boats in a large boathouse on the lakeshore. The Webber Hotel was well-known for its home-cooked meals and a home-like atmosphere."
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Du Breuill Hotel", 
+        "time": "ca. 1882-1920s", 
+        "description": [
+            "Soon after the Monon Railroad was completed in Lake County, officials approached landowner John Du Breuill to build a large, two-story hotel on his property along the lakeshore, north of the Webber/Paisley Hotel. The hotel had a dance floor and bar room on the first floor and guest rooms on the second floor. It sat on the first site of the Monon Park. During its Monon Park years, gambling, drinking, and fighting were common. By 1910, the building housed workers for the Anderson and Freeman Ice Company. It was demolished in the 1920s."
+        ]
+    },
+    {
+        "id": 11,
+        "name": "John Mitch Hotel", 
+        "time": "ca. 1890-1914", 
+        "description": [
+            "About 1890, John Mitch built a two-story, iron cross-beamed hotel southeast of the shopping center that was across from the Monon depot. Mr. Mitch felt that he was missing customer traffic, so he put the building on rollers and moved it south. The hotel had a saloon and the rooms had 9-foot high ceilings. According to a local legend, the black heavyweight champion boxer Jack Johnson stayed at the Mitch Hotel in the summer of 1909, while he trained at Cedar Lake for his 1910 bout with Jim Jeffries. Unfortunately, the hotel burned down during a large neighborhood fire in 1914, the same year that John died from being severely beaten by two drunk men whom he refused to serve."
+        ]
     }
 ]
