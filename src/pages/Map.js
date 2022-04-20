@@ -53,9 +53,30 @@ export default function Map() {
             }}
           ></div>
           <div
-            className="pinpoint shady_beach"
+            className="pinpoint toomeys_park"
             onClick={() => {
-              setPinpoint(7);
+              setPinpoint(2);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint shamrock_inn"
+            onClick={() => {
+              setPinpoint(3);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint sans_souci_hotel"
+            onClick={() => {
+              setPinpoint(4);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint olsen_hotel"
+            onClick={() => {
+              setPinpoint(5);
               setShowModal(true);
             }}
           ></div>
@@ -63,6 +84,48 @@ export default function Map() {
             className="pinpoint surprise_park"
             onClick={() => {
               setPinpoint(6);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint shady_beach"
+            onClick={() => {
+              setPinpoint(7);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint monon_park"
+            onClick={() => {
+              setPinpoint(8);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint webber_paisley_hotel"
+            onClick={() => {
+              setPinpoint(9);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint breuill_hotel"
+            onClick={() => {
+              setPinpoint(10);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint john_mitch_hotel"
+            onClick={() => {
+              setPinpoint(11);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint big3_inn"
+            onClick={() => {
+              setPinpoint(12);
               setShowModal(true);
             }}
           ></div>
