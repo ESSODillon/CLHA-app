@@ -11,7 +11,7 @@
             "Lassen's Resort also included bath houses, a waterslide, diving platform, and swings in the lake, a duck pond, boat/automobile garage, six cottages, an orchard, and a miniature golf course. In 1944, Chris sold the property to the Lake Region Christian Assembly for use as a summer camp. In 1976, the Town of Cedar Lake purchased the grounds.", 
             
             "The Cedar Lake Historical Association organized in 1977 and leased the hotel from the town to establish a museum to present the relevance of Cedar Lake history. In 1980, the old Lassen Hotel was placed on the Indiana State Registry of Historic Places, and in 1981, on the National Register of Historic Places. It opened as the Lake of the Red Cedars Museum in October 1986. On May 7, 2021, on the occassion of the 100th Anniversary of the hotel's grand opening, it was re-themed as The Museum at Lassen's Resort to embrace its founding heritage. Visit lassensresort.org to discover the museum experiences that await you."],
-            "images": []
+            "images": ["/assets/CLHA/modal/Lassens_SouvenirAlbumOfLakeCountyInd1906_0084.jpg", "/assets/CLHA/modal/Lassens.jpeg", "/assets/CLHA/modal/Lassens2.jpg", "/assets/CLHA/modal/LassensAerial.jpeg", "/assets/CLHA/modal/LassensDancePavilion.jpeg", "/assets/CLHA/modal/LassensHotel.jpg", "/assets/CLHA/modal/LassensIceBarn.jpeg", "/assets/CLHA/modal/LassensMiniGolf.jpeg", "/assets/CLHA/modal/LassensPavilionPier1.jpeg", "/assets/CLHA/modal/LassensPavilionPier2.jpeg", "/assets/CLHA/modal/LassensToboggan.jpeg", "/assets/CLHA/modal/LassensWaterPlay.jpeg"]
     },
     {
         "id": 1,
@@ -32,7 +32,8 @@
         "time": "ca. 1890-1970", 
         "description": [
             "South of Binyon's, John Toomey established a park about 1890. He constructed several buildings, including a hotel. He acquired the old Binyon School building and converted it into a dance hall. The park also included a tavern and beach. The hotel burned in the 1940s and was re-built. The park was closed in the 1970s. A fire in the 1990s claimed another of the historic structures."
-        ]
+        ],
+        "images": ["/assets/CLHA/modal/ToomeyResortTix.jpeg", "/assets/CLHA/modal/ToomeysResort1.jpeg", "/assets/CLHA/modal/ToomeysResort2.jpeg", "/assets/CLHA/modal/ToomeyBoatRideTicket.jpeg", "/assets/CLHA/modal/ToomeysResort3.jpeg"]
     },
     {
         "id": 3,
@@ -40,7 +41,8 @@
         "time": "ca. 1890-1930s", 
         "description": [
             "At about 1890, Charles and Nellie Straight had a hotel here. It consisted of a restaurant and bar room on the main floor and guest rooms upstairs. They operated it until about 1920, when James Crocker became the new proprietor. It was well-known for its chicken dinners, boating, bathing, fishing and dancing. By the 1940s, Eugene and Geraldine Quinn purchased the property and became known as Quinn's Cottages."
-        ]
+        ],
+        "images": ["/assets/CLHA/modal/ShamrockHotelAd.jpeg", "/assets/CLHA/modal/ShamrockNoPic_QuinnsCottageSite.jpeg"]
     },
     {
         "id": 4,
@@ -48,7 +50,8 @@
         "time": "ca. 1884-1930s", 
         "description": [
             "Local builder, Charles Sigler, constructed this small hotel about 1884. The name is French for “without worries.” He and his wife, Martha, ran it until the early 1910s, when it was known briefly as Winkler's Hotel. In 1914, Ernst Krautwald became the next owner and it was again known as the Sans Souci Hotel. James Crocker was the last known owner in 1928. When Crocker purchased the hotel, he spent thousands of dollars modernizing it by adding more rooms and building a mezzanine balcony for dancing, which also provided a great view of the lake. The beautiful grounds had 260 feet of lake frontage. It was known for its steak and chicken dinners. Through its years it served as an escape for musicians. Legend has it that at one time Jazz musician, Paul Ash, climbed to the roof of the hotel at 5:00 A.M. and woke up the neighborhood when he played the “Wabash Blues."
-        ]
+        ],
+        "images": ["/assets/CLHA/modal/SansSouci1_WinklersHotelObverse.jpeg", "/assets/CLHA/modal/SansSouci2.jpeg", "/assets/CLHA/modal/SansSouci3_ad.jpeg", "/assets/CLHA/modal/SansSouci4_aptbldg.jpeg"]
     },
     {
         "id": 5,
@@ -56,7 +59,8 @@
         "time": "ca. 1880s-1930", 
         "description": [
             "At about the turn of the twentieth century, the Olsen family settled at this spot. They were boat builders and established a Norwegian Boat Club here, which included two hotels that served their guests at Cedar Lake for years."
-        ]
+        ],
+        "images": []
     },
     {
         "id": 6,
@@ -64,7 +68,8 @@
         "time": "ca. 1928-1980s", 
         "description": [
             "The Peter Surprise family settled in south Lake County in the 1830s. Son, William, built a log cabin on the property. In 1928, William's son, Glenn, started Surprise Park. It featured a golf course, clubhouse built on piers over the water, and waterslide. The park also included amphibious plane rides. The ditch on the property was dug by Glenn using dynamite to have a water supply to water the golf course. U.S. Golf Architects, Inc. with the help of legendary golfer, Charles 'Chick' Evans, designed the 18-hole golf course. The park was closed during WWII. The property was sold a couple of times in the 1960s. Cecil and Mary Hays bought the property in the mid-1970s and it became South Shore Country Club. The clubhouse on the shoreline was built in 1980."
-        ]
+        ],
+        "images": ["/assets/CLHA/modal/SurprisePark.jpeg", "/assets/CLHA/modal/SuprisePark2.jpeg", "/assets/CLHA/modal/SurprisePark_YachtClub.jpg", "/assets/CLHA/modal/SurpriseParkTobaggon.jpg"]
     },
     {
         "id": 7,
@@ -72,7 +77,8 @@
         "time": "ca. 1919-1960s", 
         "description": [
             "Cordie Coffin and his mother, Emma, bought Obadiah Taylor, III's, land at the south end of Cedar Lake about 1916. The property stretched close to Cline Avenue and even included part of present-day Pine Crest Marina. Cordie left the area to serve in WWI and returned in 1919 to start Coffin's Shady Beach. Before the cabins were built, guests stayed in tents. By 1950, Cordie's son, Merritt, took over the resort. He added a steel-walled, two-story slide. A two-person cart with steel wheels was used on the waterslide, and a six-foot toboggan was used in the winter.  Merritt's son, Larry, and his wife, Sue, managed the resort for about six years. Coffin's Shady Beach became a private resort in the 1960s. Throughout the years, some parcels were sold. In 1990, Merritt's son, Terry, bought the resort and sold the last five acres about 2000. Beginning in 2006, five private residences were developed on the resort."
-        ]
+        ],
+        "images": ["/assets/CLHA/modal/Coffins1.jpeg", "/assets/CLHA/modal/Coffins2.jpeg", "/assets/CLHA/modal/Coffins3.jpeg", "/assets/CLHA/modal/Coffins4.jpeg"]
     },
     {
         "id": 8,
@@ -86,7 +92,8 @@
             "The Monon Railroad found a new site for its recreation park in 1895, about two blocks north of the first location. There were 20 acres of virtually untouched land, covered with oak and hickory trees. Many of the trees were cut down and boards were nailed to neighboring stumps to create benches. Carpenters were hired to construct a beer stand and open-air dancing pavilion, restaurant, snack shop and a bowling alley. A quarter-mile racetrack was also on the property. A large steel-framed overpass of wood was built from the top of the bluff and down to the lakefront for the guests to cross the busy railroad tracks. A high-board fence along the railroad tracks prevented guests from crossing and getting hit by trains.",
 
             "The operation of the park continued as it had at the former site. Unfortunately, the pick-pocketing and fights continued. In 1912, the railroad officials were fed up with the conditions. Associate Pastor E.Y. Woolley of Moody Bible Church was on a passenger train in 1914 heading back to Chicago and had stopped briefly at Cedar Lake. He inquired about the place and in the same year, met with Frederic Delano, President of the Monon Railroad. An agreement was made and Moody Church became the new manager of Monon Park. There was a condition that if the church proved to be a worthy manager, within five years, the railroad would sell it to the church. In 1919, the railroad sold Monon Park to Moody Bible Church for $1.00. By 1923, the Cedar Lake Conference Association was incorporated under three elders of Moody Bible Church. The Conference Grounds is now known as Cedar Lake Ministries. Torrey Auditorium, the old beer-stand and dancing pavilion, was placed on the National Register of Historic Places in 2001."
-        ]
+        ],
+        "images": []
     },
     {
         "id": 9,
