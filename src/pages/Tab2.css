@@ -26,6 +26,7 @@
 .visitHeader {
   font-family: AbrahamLincoln !important;
   font-size: 48px !important;
+  text-align: center;
 }
 
 p {

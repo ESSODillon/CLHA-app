@@ -3,6 +3,11 @@
   src: url("../../public/assets/fonts/AbrahamLincoln.ttf");
 }
 
+@font-face {
+  font-family: CenturyGothic;
+  src: url("../../public/assets/fonts/CenturyGothic.ttf");
+}
+
 .donateWrapper {
   width: 100%;
   height: 100%;
@@ -16,7 +21,8 @@
   width: fit-content;
   margin: 50px auto !important;
   font-family: AbrahamLincoln;
-  font-size: 32px !important;
+  font-size: 48px !important;
+  text-align: center;
 }
 
 p {
