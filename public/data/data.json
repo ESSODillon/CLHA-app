@@ -167,7 +167,7 @@
         "description": [
             "Not too long after the Monon Railroad was completed, railroad officials negotiated with Dr. Robert Hunter of Chicago to build a hotel at the lake's northwestern shore. In six months, he spent $3,000 for a 100-room hotel to be built. The land that he built the hotel on was leased from John Meyer. This resort also included a steam-powered boat that could hold up to 40 people. By the early 1900s the hotel had burned down."
         ],
-        "images": ["/assets/CLHA/modal/HuntersPark_noPics_illusLocatedSameSpotThough.jpg", "/assets/CLHA/modal/HuntsmanLodge_circa1900.jpeg"]
+        "images": ["/assets/CLHA/modal/HuntersPark_noPics_illusLocatedSameSpotThough.jpg"]
     },
     {
         "id": 17,
@@ -211,7 +211,8 @@
         "time": "ca. 1895-1950", 
         "description": [
             "Resort owner Adam Hetzler built a hotel and saloon at the north end of the lake in 1985. On October 13, 1903, it burned down, at a loss of about $2,500. He soon rebuilt a new hotel. His son, Anthony, added a waterslide. Adam sold the property in 1928 to Victor Nadison and it became Victor's Beach. Half an hour admissino on the slide cost 35 cents. Victor's earned a questionable reputation for women and gangsters. In fact, on November 6, 1933, Chicago gangster James Sammons was arrested here by a Lake County Sheriff's Deputy for drunkenness. Sammons served 10 years at the Indiana State Prison in Michigan City before he was returned to Illinois to serve the remaining 30 years of his original life sentence. The hotel burned about 1950. The Cedar Lake Chamber of Commerce and Indiana Department of Natural Resources boat launch are located on this site."
-        ]
+        ],
+        "images": ["/assets/CLHA/modal/VictorsBeach.jpg", "/assets/CLHA/modal/VictorsBeachAdvertisingCard.jpeg", "/assets/CLHA/modal/VictorsBeachWaterWheel.jpg"]
     },
     {
         "id": 22,
@@ -219,7 +220,8 @@
         "time": "ca. 1920s-1930s", 
         "description": [
             "No details are know about this small hotel."
-        ]
+        ],
+        "images": ["/assets/CLHA/modal/IronLanternInn.jpeg"]
     },
     {
         "id": 23,
@@ -227,7 +229,8 @@
         "time": "ca. 1924-1930s", 
         "description": [
             "Young's sat adjacent to the land currently known as Bartlett-Wahlberg park in the busy business section along Cedar Lake's northeastern shore. They rented hotel rooms and boats to guests and operated a grocery store and delicatessen. When it was demolished, Lake Shore Hardware was built in its place in 1946. Aron Schuhrke's State Farm office now occupies the hardware store."
-        ]
+        ],
+        "images": ["/assets/CLHA/modal/YoungsHotel.jpeg", "/assets/CLHA/modal/YoungsPlace_ZeigersBakeryFromLake.jpeg"]
     },
     {
         "id": 24,
@@ -235,7 +238,8 @@
         "time": "ca. 1869-1900s", 
         "description": [
             "Built about 1869 by Grosvenor Adams and S. Burson, this early resort attracted sportsmen from as far away as Europe for hunting excursions. The first floor was one large room and the second floor had two small rooms. By about 1901 it was modified into a dance hall, and later, realtor Samuel Bartlett owned the property all the way down to the lakeshore where the Bartlett/Wahlberg Memorial Park is now."
-        ]
+        ],
+        "images": ["/assets/CLHA/modal/HuntsmanLodge_circa1900.jpeg"]
     },
     {
         "id": 25,
