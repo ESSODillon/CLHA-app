@@ -105,5 +105,39 @@
         "description": [
             "About 1890, John Mitch built a two-story, iron cross-beamed hotel southeast of the shopping center that was across from the Monon depot. Mr. Mitch felt that he was missing customer traffic, so he put the building on rollers and moved it south. The hotel had a saloon and the rooms had 9-foot high ceilings. According to a local legend, the black heavyweight champion boxer Jack Johnson stayed at the Mitch Hotel in the summer of 1909, while he trained at Cedar Lake for his 1910 bout with Jim Jeffries. Unfortunately, the hotel burned down during a large neighborhood fire in 1914, the same year that John died from being severely beaten by two drunk men whom he refused to serve."
         ]
+    },
+    {
+        "id": 12,
+        "name": "Big 3 Inn", 
+        "time": "ca. 1920-1930", 
+        "description": [
+            "In 1920, three Chicago businessmen entered a resort venture in Cedar Lake by putting their money together to build a long, two-story hotel south of the west side shopping center. It had a dance floor on the first story, with a bar room at the south end, and spacious rooms upstairs. It was called the Big Three Inn for the three investors. These businessmen were highly successful until the Great Depression and then the hotel burned down."
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Monon Depot/Cedar Lake Station", 
+        "time": "ca. 1898-1947", 
+        "description": [
+            "When the Monon Railroad was completed in 1881, two depots were established in the village of Armour, at the northwestern shore, and the village of Paisley, at the southwestern shore. These were shipping points and where the mail was sent. The various resorts that had launches or steam-powered boats that met the trains took visitors to resorts or other lakeshore destinations for about 15 cents. The new Monon depot, or Cedar Lake Station, was built in 1898 and replaced the Armour and Paisley depots. The Monon Railroad had just undergone another merger and became the Chicago, Indianapolis and Louisville Railroad. This depot was at the lake's midwestern shore. Included at the site was a pier where the launches met travelers.",
+
+            "In the years after the railroad tracks were moved off the lakeshore, the outside of the depot was altered as it changed ownership. It was the A & F Snack Shop in the 1960s and 1970s. It was a restaurant under many owners, including Florence Puccini. By the early 2000s, the old depot was torn down to make room for the townhouses that stand in the location today."
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Sigler House/Hotel/Monon Hotel", 
+        "time": "ca. 1890-1914", 
+        "description": [
+            "This large, 100-room hotel stood just north of the Monon Depot and was built by Charles Sigler about 1890. Like other resorts, it was famous for its chicken dinners. During the Monon Park days, it sold picnic lunches to the guests. Some advertisements give the name of the hotel as the Sigler House or Hotel. Because it served Monon Park, it was also called the Monon Hotel. The hotel had a pier and provided boating and fishing and even served as a meeting place for various social groups of Cedar Lake and the vicinity. In 1914, the hotel burned down, purportedly due to an overheated fireplace. Monte Biesecker replaced it with a restaurant and pier managed by Bill Gerbing and Tobias Spindler."
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Glendenning Hotel", 
+        "time": "ca. 1915-1935", 
+        "description": [
+            "On top of the western bluff, not too far north of the Sigler Hotel, Chicago businessman Robert Glendenning built a 30-room, $30,000 hotel in 1915. It also had a spacious dining room. Mr. Glendenning was a friend of the Moody Bible Church of Chicago and saw a need for accommodations for the guests of the Moody Grounds and donated it to the church. About 1928, the hotel was cut up into sections and moved onto the Moody property. Close to Labor Day 1935, the hotel burned to the ground. The conference association did not have insurance. Despite this, through donations by friends of the Cedar Lake Conference Association and a loan from the First National Bank of Crown Point, a new hotel named Rest-A-While rose from the ashes of the Glendenning Hotel in 1936. The property is owned by Cedar Lake Ministries."
+        ]
     }
 ]
