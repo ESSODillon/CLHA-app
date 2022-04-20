@@ -85,7 +85,7 @@ export default function Map() {
                   <IonCardContent>{paragraph}</IonCardContent>
                 ))}
                 {mapData[pinpoint].images.map((image) => (
-                  <IonImg src={image}></IonImg>
+                  <IonImg className="modalImage" src={image}></IonImg>
                 ))}
               </IonCard>
             </IonContent>

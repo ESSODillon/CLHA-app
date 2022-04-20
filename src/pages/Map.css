@@ -13,6 +13,11 @@
   cursor: pointer;
 }
 
+.modalImage {
+  width: 90%;
+  margin: 25px auto;
+}
+
 .shady_beach {
   height: 12vw;
   width: 12vw;
