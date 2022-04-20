@@ -76,12 +76,16 @@
     },
     {
         "id": 8,
-        "name": "Monon Park 1", 
-        "time": "ca. 1881-1895", 
+        "name": "Monon Park", 
+        "time": "ca. 1895-1919", 
         "description": [
             "When the Monon Railroad was completed through Cedar Lake in 1881, railroad officials recognized Cedar Lake's beauty and its potential to be utilized like Lake Geneva, Wisconsin. The railroad created a recreation park at Cedar Lake to increase the ridership of their passenger trains and increase profits for the railroad. The first location of Monon Park was in what is now known as Noble Oaks Subdivision, on land once owned by John Du Breuill. The railroad leased the land from Mr. Du Breuill and asked him to build a pier and maintain 40 rowboats. He also built a hotel on his property and a dance hall. Monon Park served guests in a carnival style, with a midway and a variety of vendors selling cold drinks, ice cream and other novelties.",
 
-            "The link to Chicago brought gamblers, pick-pockets, and other criminals on the Monon too. With the consumption of alcoholic beverages, fights were common. Chicago policemen came to police the area and they clashed with the jurisdiction of local authorities. By 1895, as many five passenger trains stopped here daily. Monon Park was becoming overcrowded. When Mr. Du Breuill died and his estate was being split up by his heirs, the railroad had to look for a new location."
+            "The link to Chicago brought gamblers, pick-pockets, and other criminals on the Monon too. With the consumption of alcoholic beverages, fights were common. Chicago policemen came to police the area and they clashed with the jurisdiction of local authorities. By 1895, as many five passenger trains stopped here daily. Monon Park was becoming overcrowded. When Mr. Du Breuill died and his estate was being split up by his heirs, the railroad had to look for a new location.",
+
+            "The Monon Railroad found a new site for its recreation park in 1895, about two blocks north of the first location. There were 20 acres of virtually untouched land, covered with oak and hickory trees. Many of the trees were cut down and boards were nailed to neighboring stumps to create benches. Carpenters were hired to construct a beer stand and open-air dancing pavilion, restaurant, snack shop and a bowling alley. A quarter-mile racetrack was also on the property. A large steel-framed overpass of wood was built from the top of the bluff and down to the lakefront for the guests to cross the busy railroad tracks. A high-board fence along the railroad tracks prevented guests from crossing and getting hit by trains.",
+
+            "The operation of the park continued as it had at the former site. Unfortunately, the pick-pocketing and fights continued. In 1912, the railroad officials were fed up with the conditions. Associate Pastor E.Y. Woolley of Moody Bible Church was on a passenger train in 1914 heading back to Chicago and had stopped briefly at Cedar Lake. He inquired about the place and in the same year, met with Frederic Delano, President of the Monon Railroad. An agreement was made and Moody Church became the new manager of Monon Park. There was a condition that if the church proved to be a worthy manager, within five years, the railroad would sell it to the church. In 1919, the railroad sold Monon Park to Moody Bible Church for $1.00. By 1923, the Cedar Lake Conference Association was incorporated under three elders of Moody Bible Church. The Conference Grounds is now known as Cedar Lake Ministries. Torrey Auditorium, the old beer-stand and dancing pavilion, was placed on the National Register of Historic Places in 2001."
         ]
     },
     {
@@ -144,16 +148,6 @@
     },
     {
         "id": 16,
-        "name": "Monon Park 2", 
-        "time": "ca. 1895-1919", 
-        "description": [
-            "The Monon Railroad found a new site for its recreation park in 1895, about two blocks north of the first location. There were 20 acres of virtually untouched land, covered with oak and hickory trees. Many of the trees were cut down and boards were nailed to neighboring stumps to create benches. Carpenters were hired to construct a beer stand and open-air dancing pavilion, restaurant, snack shop and a bowling alley. A quarter-mile racetrack was also on the property. A large steel-framed overpass of wood was built from the top of the bluff and down to the lakefront for the guests to cross the busy railroad tracks. A high-board fence along the railroad tracks prevented guests from crossing and getting hit by trains.",
-
-            "The operation of the park continued as it had at the former site. Unfortunately, the pick-pocketing and fights continued. In 1912, the railroad officials were fed up with the conditions. Associate Pastor E.Y. Woolley of Moody Bible Church was on a passenger train in 1914 heading back to Chicago and had stopped briefly at Cedar Lake. He inquired about the place and in the same year, met with Frederic Delano, President of the Monon Railroad. An agreement was made and Moody Church became the new manager of Monon Park. There was a condition that if the church proved to be a worthy manager, within five years, the railroad would sell it to the church. In 1919, the railroad sold Monon Park to Moody Bible Church for $1.00. By 1923, the Cedar Lake Conference Association was incorporated under three elders of Moody Bible Church. The Conference Grounds is now known as Cedar Lake Ministries. Torrey Auditorium, the old beer-stand and dancing pavilion, was placed on the National Register of Historic Places in 2001."
-        ]
-    },
-    {
-        "id": 17,
         "name": "Hunter Hotel", 
         "time": "ca. 1882-early 1900s", 
         "description": [
@@ -161,7 +155,7 @@
         ]
     },
     {
-        "id": 18,
+        "id": 17,
         "name": "Von Borstel Hotel", 
         "time": "ca. 1883-1894", 
         "description": [
@@ -169,7 +163,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 18,
         "name": "Terrace Garden Beach", 
         "time": "ca. 1920s-1930s", 
         "description": [
@@ -177,7 +171,7 @@
         ]
     },
     {
-        "id": 20,
+        "id": 19,
         "name": "Lakeview Hotel/Park", 
         "time": "ca. 1910-1920", 
         "description": [
@@ -185,7 +179,7 @@
         ]
     },
     {
-        "id": 21,
+        "id": 20,
         "name": "Bartell's Resort", 
         "time": "ca. 1926-1930s", 
         "description": [
@@ -193,7 +187,7 @@
         ]
     },
     {
-        "id": 22,
+        "id": 21,
         "name": "Hetzler's Hotel/ Victor's Beach", 
         "time": "ca. 1895-1950", 
         "description": [
@@ -201,7 +195,7 @@
         ]
     },
     {
-        "id": 23,
+        "id": 22,
         "name": "Iron Lantern Inn", 
         "time": "ca. 1920s-1930s", 
         "description": [
@@ -209,7 +203,7 @@
         ]
     },
     {
-        "id": 24,
+        "id": 23,
         "name": "Young's Hotel", 
         "time": "ca. 1924-1930s", 
         "description": [
@@ -217,7 +211,7 @@
         ]
     },
     {
-        "id": 25,
+        "id": 24,
         "name": "Huntsman's Lodge", 
         "time": "ca. 1869-1900s", 
         "description": [
@@ -225,7 +219,7 @@
         ]
     },
     {
-        "id": 26,
+        "id": 25,
         "name": "Ellery's Inn", 
         "time": "ca. 1920s-1930s", 
         "description": [
@@ -233,7 +227,7 @@
         ]
     },
     {
-        "id": 27,
+        "id": 26,
         "name": "Top Flight Hotel", 
         "time": "ca. 1912-1946", 
         "description": [
@@ -241,7 +235,7 @@
         ]
     },
     {
-        "id": 28,
+        "id": 27,
         "name": "Sunset Hotel", 
         "time": "ca. 1920-1930s", 
         "description": [
@@ -249,7 +243,7 @@
         ]
     },
     {
-        "id": 29,
+        "id": 28,
         "name": "Midway Gardens/Ballroom", 
         "time": "ca. 1920-1987", 
         "description": [
@@ -259,7 +253,7 @@
         ]
     },
     {
-        "id": 30,
+        "id": 29,
         "name": "Derby Hotel", 
         "time": "ca. 1904-1930s", 
         "description": [
@@ -267,7 +261,7 @@
         ]
     },
     {
-        "id": 31,
+        "id": 30,
         "name": "Burke Hotel", 
         "time": "ca. 1885-1900", 
         "description": [
@@ -275,7 +269,7 @@
         ]
     },
     {
-        "id": 32,
+        "id": 31,
         "name": "Kennedy Hotel", 
         "time": "ca. 1900-1968", 
         "description": [
@@ -285,7 +279,7 @@
         ]
     },
     {
-        "id": 33,
+        "id": 32,
         "name": "Cedar Point Hotel", 
         "time": "ca. 1895-1914", 
         "description": [
@@ -293,7 +287,7 @@
         ]
     },
     {
-        "id": 34,
+        "id": 33,
         "name": "Stanley's Hotel", 
         "time": "ca. 1882-1920", 
         "description": [
@@ -301,7 +295,7 @@
         ]
     },
     {
-        "id": 35,
+        "id": 34,
         "name": "Cedar Lake Yacht Club", 
         "time": "ca. 1934 - Present", 
         "description": [
