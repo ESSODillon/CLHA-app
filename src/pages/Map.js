@@ -12,6 +12,7 @@ import {
   IonCardHeader,
   IonCardTitle,
   IonCardSubtitle,
+  IonImg,
 } from "@ionic/react";
 import "./Map.css";
 
@@ -82,6 +83,9 @@ export default function Map() {
                 </IonCardHeader>
                 {mapData[pinpoint].description.map((paragraph) => (
                   <IonCardContent>{paragraph}</IonCardContent>
+                ))}
+                {mapData[pinpoint].images.map((image) => (
+                  <IonImg src={image}></IonImg>
                 ))}
               </IonCard>
             </IonContent>
