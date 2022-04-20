@@ -1,6 +1,6 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonIcon, IonText } from '@ionic/react';
 import { logoPaypal } from 'ionicons/icons';
-import './Tab3.css';
+import './Donate.css';
 
 const Tab3: React.FC = () => {
   return (

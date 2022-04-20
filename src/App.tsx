@@ -11,10 +11,10 @@ import {
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { card, map, trailSign, people } from 'ionicons/icons';
-import Tab1 from './pages/Tab1';
-import Tab2 from './pages/Tab2';
-import Tab3 from './pages/Tab3';
-import Tab4 from './pages/Tab4';
+import Map from './pages/Map';
+import Visit from './pages/Visit';
+import Donate from './pages/Donate';
+import Volunteer from './pages/Volunteer';
 import AR from './pages/AR';
 
 /* Core CSS required for Ionic components to work properly */
@@ -43,17 +43,17 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-          <Route exact path="/tab1">
-            <Tab1 />
+          <Route exact path="/map">
+            <Map />
           </Route>
-          <Route exact path="/tab2">
-            <Tab2 />
+          <Route exact path="/visit">
+            <Visit />
           </Route>
-          <Route path="/tab3">
-            <Tab3 />
+          <Route path="/donate">
+            <Donate />
           </Route>
-          <Route path="/tab4">
-            <Tab4 />
+          <Route path="/volunteer">
+            <Volunteer />
           </Route>
           <Route path="/AR">
             <AR />
@@ -64,19 +64,19 @@ const App: React.FC = () => (
         </IonRouterOutlet>
 
         <IonTabBar slot="bottom">
-          <IonTabButton tab="tab1" href="/tab1">
+          <IonTabButton tab="tab1" href="/map">
             <IonIcon icon={map} />
             <IonLabel>Map</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab2" href="/tab2">
+          <IonTabButton tab="tab2" href="/visit">
             <IonIcon icon={trailSign} />
             <IonLabel>Visit</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
+          <IonTabButton tab="tab3" href="/donate">
             <IonIcon icon={card} />
             <IonLabel>Donate</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab4" href="/tab4">
+          <IonTabButton tab="tab4" href="/volunteer">
             <IonIcon icon={people} />
             <IonLabel>Volunteer</IonLabel>
           </IonTabButton>

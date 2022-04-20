@@ -1,5 +1,4 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import './Tab1.css';
 import IframeResizer from 'iframe-resizer-react';
 
 const styleWebformIframeEmbed: React.CSSProperties = {

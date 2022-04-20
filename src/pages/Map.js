@@ -13,9 +13,9 @@ import {
   IonCardTitle,
   IonCardSubtitle,
 } from "@ionic/react";
-import "./Tab1.css";
+import "./Map.css";
 
-export default function Tab1() {
+export default function Map() {
   const [mapData, setMapData] = useState([]);
   const [pinpoint, setPinpoint] = useState(0);
   const [showModal, setShowModal] = useState(false);
@@ -41,6 +41,13 @@ export default function Tab1() {
             className="pinpoint lassens_resort"
             onClick={() => {
               setPinpoint(0);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint binyons_resort"
+            onClick={() => {
+              setPinpoint(1);
               setShowModal(true);
             }}
           ></div>
