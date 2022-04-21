@@ -1,7 +1,7 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonImg, IonText } from '@ionic/react';
 import './Visit.css';
 
-const Tab2: React.FC = () => {
+export default function Visit() {
   return (
     <IonPage>
       <IonHeader>
@@ -26,5 +26,3 @@ const Tab2: React.FC = () => {
     </IonPage>
   );
 };
-
-export default Tab2;

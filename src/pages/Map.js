@@ -37,6 +37,7 @@ export default function Map() {
         </IonToolbar>
       </IonHeader>
       <IonContent>
+        {/* mapImg is a big relative with the background image. On top of it are a bunch of tiny absolute divs, (uncomment the red border on pinpoint class in Map.css to see visual) each of these divs points to an array in data.json and opens a modal component setup below */}
         <div className="mapImg">
           <div
             className="pinpoint lassens_resort"
@@ -129,6 +130,15 @@ export default function Map() {
               setShowModal(true);
             }}
           ></div>
+          {/* Below div was not found on image map */}
+
+          {/* <div
+            className="pinpoint cedar_lake_station"
+            onClick={() => {
+              setPinpoint(13);
+              setShowModal(true);
+            }}
+          ></div> */}
           <div
             className="pinpoint sigler_monon"
             onClick={() => {
@@ -269,13 +279,15 @@ export default function Map() {
               setShowModal(true);
             }}
           ></div>
-          <div
+          {/* Below div was not found on image map */}
+
+          {/* <div
             className="pinpoint cedar_lake_yacht_club"
             onClick={() => {
               setPinpoint(34);
               setShowModal(true);
             }}
-          ></div>
+          ></div> */}
         </div>
 
         {mapData.length > 1 && (
@@ -285,11 +297,20 @@ export default function Map() {
             onDidDismiss={() => setShowModal(false)}
           >
             <IonContent>
-              <IonButton onClick={() => setShowModal(false)}>Close</IonButton>
               <IonCard>
                 <IonCardHeader>
-                  <IonCardSubtitle>{mapData[pinpoint].time}</IonCardSubtitle>
-                  <IonCardTitle>{mapData[pinpoint].name}</IonCardTitle>
+                  <IonButton
+                    className="modal_button"
+                    onClick={() => setShowModal(false)}
+                  >
+                    Close
+                  </IonButton>
+                  <IonCardSubtitle className="modal_subtitle">
+                    {mapData[pinpoint].time}
+                  </IonCardSubtitle>
+                  <IonCardTitle className="modal_title">
+                    {mapData[pinpoint].name}
+                  </IonCardTitle>
                 </IonCardHeader>
                 {mapData[pinpoint].description.map((paragraph) => (
                   <IonCardContent>{paragraph}</IonCardContent>

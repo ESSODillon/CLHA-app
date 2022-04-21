@@ -7,15 +7,27 @@
   position: relative;
 }
 
-.pinpoint {
-  border: red 2px solid;
-  position: absolute;
-  cursor: pointer;
+.modal_button {
+  float: right;
+}
+
+.modal_subtitle {
+  width: 75%;
+}
+
+.modal_title {
+  width: 75%;
 }
 
 .modalImage {
   width: 90%;
   margin: 25px auto;
+}
+
+.pinpoint {
+  /* border: red 2px solid; */
+  position: absolute;
+  cursor: pointer;
 }
 
 .shady_beach {
@@ -219,4 +231,32 @@
   width: 8vw;
   top: 66.5vw;
   left: 84vw;
+}
+
+.burke_hotel {
+  height: 3vw;
+  width: 8vw;
+  top: 76.5vw;
+  left: 84vw;
+}
+
+.kennedy_hotel {
+  height: 3vw;
+  width: 8vw;
+  top: 76.5vw;
+  left: 84vw;
+}
+
+.cedar_point_hotel {
+  height: 5vw;
+  width: 10vw;
+  top: 86.5vw;
+  left: 61vw;
+}
+
+.stanleys_hotel {
+  height: 5vw;
+  width: 10vw;
+  top: 96vw;
+  left: 68vw;
 }
