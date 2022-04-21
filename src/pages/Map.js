@@ -130,15 +130,13 @@ export default function Map() {
               setShowModal(true);
             }}
           ></div>
-          {/* Below div was not found on image map */}
-
-          {/* <div
+          <div
             className="pinpoint cedar_lake_station"
             onClick={() => {
               setPinpoint(13);
               setShowModal(true);
             }}
-          ></div> */}
+          ></div>
           <div
             className="pinpoint sigler_monon"
             onClick={() => {
