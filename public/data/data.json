@@ -219,7 +219,7 @@
         "name": "Iron Lantern Inn", 
         "time": "ca. 1920s-1930s", 
         "description": [
-            "No details are know about this small hotel."
+            "No details are known about this small hotel."
         ],
         "images": ["/assets/CLHA/modal/IronLanternInn.jpeg"]
     },
@@ -239,14 +239,14 @@
         "description": [
             "Built about 1869 by Grosvenor Adams and S. Burson, this early resort attracted sportsmen from as far away as Europe for hunting excursions. The first floor was one large room and the second floor had two small rooms. By about 1901 it was modified into a dance hall, and later, realtor Samuel Bartlett owned the property all the way down to the lakeshore where the Bartlett/Wahlberg Memorial Park is now."
         ],
-        "images": ["/assets/CLHA/modal/HuntsmanLodge_circa1900.jpeg"]
+        "images": ["/assets/CLHA/modal/HuntsmansLodge_circa1900.jpeg"]
     },
     {
         "id": 25,
         "name": "Ellery's Inn", 
         "time": "ca. 1920s-1930s", 
         "description": [
-            "No details are know about this resort property."
+            "No details are known about this resort property."
         ],
         "images": ["/assets/CLHA/modal/EllerysConcessionAd.jpeg"]
     },
@@ -266,7 +266,7 @@
         "description": [
             "In 1920, Adam Hetzler bought one of the buildings from the Stanley Resort and had it moved north to where the east side shopping center (Dollar General, Gleaner's, Sips, etc.) is now located. It was a small hotel and store. Mary Hetzler worked here for her mother, She married Jack Stife about 1924 and the area became known as Stife's Corner. The business offered steak and chicken dinners, light lunches, and sandwiches. The grocery store included a meat market. The east side shopping center was built around the hotel and the second story is still visible above the shopping center roofline."
         ],
-        "images": ["/assets/CLHA/modal/Sunset Hotel_thenStifesPlace.jpeg", "/assets/CLHA/modal/Sunset_StrifesPlace_akaHotel.jpeg"]
+        "images": ["/assets/CLHA/modal/Sunset Hotel_thenStifesPlace.jpeg", "/assets/CLHA/modal/Sunset_StifesPlace_akaHotel.jpeg"]
     },
     {
         "id": 28,
