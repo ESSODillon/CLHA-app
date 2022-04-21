@@ -129,6 +129,153 @@ export default function Map() {
               setShowModal(true);
             }}
           ></div>
+          <div
+            className="pinpoint sigler_monon"
+            onClick={() => {
+              setPinpoint(14);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint gledenning_hotel"
+            onClick={() => {
+              setPinpoint(15);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint hunter_hotel"
+            onClick={() => {
+              setPinpoint(16);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint von_borstel_hotel"
+            onClick={() => {
+              setPinpoint(17);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint terrace_garden_beach"
+            onClick={() => {
+              setPinpoint(18);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint lakeview_hotel"
+            onClick={() => {
+              setPinpoint(19);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint bartells_resort"
+            onClick={() => {
+              setPinpoint(20);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint victors_beach"
+            onClick={() => {
+              setPinpoint(21);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint iron_lantern_inn"
+            onClick={() => {
+              setPinpoint(22);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint youngs_hotel"
+            onClick={() => {
+              setPinpoint(23);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint huntsmans_lodge"
+            onClick={() => {
+              setPinpoint(24);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint ellerys_inn"
+            onClick={() => {
+              setPinpoint(25);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint top_flight_hotel"
+            onClick={() => {
+              setPinpoint(26);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint sunset_hotel"
+            onClick={() => {
+              setPinpoint(27);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint midway_gardens"
+            onClick={() => {
+              setPinpoint(28);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint derby_hotel"
+            onClick={() => {
+              setPinpoint(29);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint burke_hotel"
+            onClick={() => {
+              setPinpoint(30);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint kennedy_hotel"
+            onClick={() => {
+              setPinpoint(31);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint cedar_point_hotel"
+            onClick={() => {
+              setPinpoint(32);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint stanleys_hotel"
+            onClick={() => {
+              setPinpoint(33);
+              setShowModal(true);
+            }}
+          ></div>
+          <div
+            className="pinpoint cedar_lake_yacht_club"
+            onClick={() => {
+              setPinpoint(34);
+              setShowModal(true);
+            }}
+          ></div>
         </div>
 
         {mapData.length > 1 && (
