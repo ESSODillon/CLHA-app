@@ -1,0 +1,338 @@
+[
+    {
+        "id": 0,
+        "name": "Lassen's Resort", 
+        "time": "ca. 1896-1944", 
+        "description": [
+            "The Lassen family came to Cedar Lake from Chicago in 1896. As boating enthusiasts, it was the lake that drew them here. Eldest son, Chris Lassen, began resort operations with a single steamboat that would ferry passengers between the Monon depot and the resort, as well as around the lake. He named the operation the Dewey Line after Admiral Dewey of the Spanish-American war. His fleet eventually grew to six boats with names like Big Dewey, Little Dewey, Steamer Dewey, and Baby Dewey. In 1902, a dance pavilion was built 300 feet off-shore by driving wood pilings into the lakebed and building the structure above. A restaurant was added on to the dance pavilion by 1912. The pier also included a tavern and a lunch counter and was the largest pier of its kind over a body of water in Indiana. ", 
+            
+            "In 1890, Armour Brothers & Company established ice interests at the lake's northwestern shore in the village of Armour. Each winter, the company took ice from the frozen lake to ship via the Monon railway to their meat-packing business in south Chicago. Three local carpenters, Nicholas Mager, Charles Wheeler and Kinzie Witter, built a boarding house for Armour's seasonal workforce. Near the end of WWI, Armour discontinued ice farming at Cedar Lake. Chris Lassen bought the boarding house to repurpose it as a hotel on his acreage. The building was gutted in the winter of 1919, put on sledges, and pulled across the frozen lake to its present site. Chris, along with his brothers Tom and Harry, dismantled the Armour ice barns and used the lumber to build the lakefront wing of the building in 1920. Lassen's Resort Hotel opened on May 7, 1921.", 
+            
+            "Lassen's Resort also included bath houses, a waterslide, diving platform, and swings in the lake, a duck pond, boat/automobile garage, six cottages, an orchard, and a miniature golf course. In 1944, Chris sold the property to the Lake Region Christian Assembly for use as a summer camp. In 1976, the Town of Cedar Lake purchased the grounds.", 
+            
+            "The Cedar Lake Historical Association organized in 1977 and leased the hotel from the town to establish a museum to present the relevance of Cedar Lake history. In 1980, the old Lassen Hotel was placed on the Indiana State Registry of Historic Places, and in 1981, on the National Register of Historic Places. It opened as the Lake of the Red Cedars Museum in October 1986. On May 7, 2021, on the occassion of the 100th Anniversary of the hotel's grand opening, it was re-themed as The Museum at Lassen's Resort to embrace its founding heritage. Visit lassensresort.org to discover the museum experiences that await you."],
+            "images": ["/assets/CLHA/modal/Lassens_SouvenirAlbumOfLakeCountyInd1906_0084.jpg", "/assets/CLHA/modal/Lassens.jpeg", "/assets/CLHA/modal/Lassens2.jpg", "/assets/CLHA/modal/LassensAerial.jpeg", "/assets/CLHA/modal/LassensDancePavilion.jpeg", "/assets/CLHA/modal/LassensHotel.jpg", "/assets/CLHA/modal/LassensIceBarn.jpeg", "/assets/CLHA/modal/LassensMiniGolf.jpeg", "/assets/CLHA/modal/LassensPavilionPier1.jpeg", "/assets/CLHA/modal/LassensPavilionPier2.jpeg", "/assets/CLHA/modal/LassensToboggan.jpeg", "/assets/CLHA/modal/LassensWaterPlay.jpeg"]
+    },
+    {
+        "id": 1,
+        "name": "Binyon's Resort", 
+        "time": "ca. 1877-1930s", 
+        "description": [
+            "John Binyon and his son, Christopher, purchased property in 1877 south of the dam at the Cedar Creek outlet, at the area now known as Binyon's Point, and established Binyon's Hotel. The first hotel was on the point, close to the water. At a later time, it was sold to Harry Clark, then to Luke Trotter.",
+
+            "Christopher and his wife Flora had a two-story hotel built east of the original hotel in 1900. The resort had a good reputation and was known for its 25 cent chicken dinners, which cost 50 cents by 1920. Up to as many as 500 chickens were dressed each weekend and the resort frequently fed 200 guests at a time. Binyon's offered boating, with a boat house containing 50 boats, fishing, and was one of the few resorts that offered winter recreation such as ice skating. A ledger from the hotel shows 17 meals for a total of $3.10 and a room for $2.00 a week.",
+
+            "By the 1940s, Christopher and Flora's son, Hal 'Bud' Binyon, had opened Binyon's Restaurant in Chicago and continued the tradition of family service to its customers until about 1987. There is no relation to the Binion family of casino fame."
+        ],
+        "images": ["/assets/CLHA/modal/Binyons.jpeg", "/assets/CLHA/modal/Binyons2.jpg"]
+    },
+    {
+        "id": 2,
+        "name": "Toomey's Park", 
+        "time": "ca. 1890-1970", 
+        "description": [
+            "South of Binyon's, John Toomey established a park about 1890. He constructed several buildings, including a hotel. He acquired the old Binyon School building and converted it into a dance hall. The park also included a tavern and beach. The hotel burned in the 1940s and was re-built. The park was closed in the 1970s. A fire in the 1990s claimed another of the historic structures."
+        ],
+        "images": ["/assets/CLHA/modal/ToomeyResortTix.jpeg", "/assets/CLHA/modal/ToomeysResort1.jpeg", "/assets/CLHA/modal/ToomeysResort2.jpeg", "/assets/CLHA/modal/ToomeyBoatRideTicket.jpeg", "/assets/CLHA/modal/ToomeysResort3.jpeg"]
+    },
+    {
+        "id": 3,
+        "name": "Shamrock Inn", 
+        "time": "ca. 1890-1930s", 
+        "description": [
+            "At about 1890, Charles and Nellie Straight had a hotel here. It consisted of a restaurant and bar room on the main floor and guest rooms upstairs. They operated it until about 1920, when James Crocker became the new proprietor. It was well-known for its chicken dinners, boating, bathing, fishing and dancing. By the 1940s, Eugene and Geraldine Quinn purchased the property and became known as Quinn's Cottages."
+        ],
+        "images": ["/assets/CLHA/modal/ShamrockHotelAd.jpeg", "/assets/CLHA/modal/ShamrockNoPic_QuinnsCottageSite.jpeg"]
+    },
+    {
+        "id": 4,
+        "name": "Sans Souci Hotel", 
+        "time": "ca. 1884-1930s", 
+        "description": [
+            "Local builder, Charles Sigler, constructed this small hotel about 1884. The name is French for “without worries.” He and his wife, Martha, ran it until the early 1910s, when it was known briefly as Winkler's Hotel. In 1914, Ernst Krautwald became the next owner and it was again known as the Sans Souci Hotel. James Crocker was the last known owner in 1928. When Crocker purchased the hotel, he spent thousands of dollars modernizing it by adding more rooms and building a mezzanine balcony for dancing, which also provided a great view of the lake. The beautiful grounds had 260 feet of lake frontage. It was known for its steak and chicken dinners. Through its years it served as an escape for musicians. Legend has it that at one time Jazz musician, Paul Ash, climbed to the roof of the hotel at 5:00 A.M. and woke up the neighborhood when he played the 'Wabash Blues.'"
+        ],
+        "images": ["/assets/CLHA/modal/SansSouci1_WinklersHotelObverse.jpeg", "/assets/CLHA/modal/SansSouci2.jpeg", "/assets/CLHA/modal/SansSouci3_ad.jpeg", "/assets/CLHA/modal/SansSouci4_aptbldg.jpeg"]
+    },
+    {
+        "id": 5,
+        "name": "Olsen Hotels 1 and 2", 
+        "time": "ca. 1880s-1930", 
+        "description": [
+            "At about the turn of the twentieth century, the Olsen family settled at this spot. They were boat builders and established a Norwegian Boat Club here, which included two hotels that served their guests at Cedar Lake for years."
+        ],
+        "images": []
+    },
+    {
+        "id": 6,
+        "name": "Surprise Park", 
+        "time": "ca. 1928-1980s", 
+        "description": [
+            "The Peter Surprise family settled in south Lake County in the 1830s. Son, William, built a log cabin on the property. In 1928, William's son, Glenn, started Surprise Park. It featured a golf course, clubhouse built on piers over the water, and waterslide. The park also included amphibious plane rides. The ditch on the property was dug by Glenn using dynamite to have a water supply to water the golf course. U.S. Golf Architects, Inc. with the help of legendary golfer, Charles 'Chick' Evans, designed the 18-hole golf course. The park was closed during WWII. The property was sold a couple of times in the 1960s. Cecil and Mary Hays bought the property in the mid-1970s and it became South Shore Country Club. The clubhouse on the shoreline was built in 1980."
+        ],
+        "images": ["/assets/CLHA/modal/SurprisePark.jpeg", "/assets/CLHA/modal/SuprisePark2.jpeg", "/assets/CLHA/modal/SurprisePark_YachtClub.jpg", "/assets/CLHA/modal/SurpriseParkTobaggon.jpg"]
+    },
+    {
+        "id": 7,
+        "name": "Coffin's Shady Beach", 
+        "time": "ca. 1919-1960s", 
+        "description": [
+            "Cordie Coffin and his mother, Emma, bought Obadiah Taylor, III's, land at the south end of Cedar Lake about 1916. The property stretched close to Cline Avenue and even included part of present-day Pine Crest Marina. Cordie left the area to serve in WWI and returned in 1919 to start Coffin's Shady Beach. Before the cabins were built, guests stayed in tents. By 1950, Cordie's son, Merritt, took over the resort. He added a steel-walled, two-story slide. A two-person cart with steel wheels was used on the waterslide, and a six-foot toboggan was used in the winter.  Merritt's son, Larry, and his wife, Sue, managed the resort for about six years. Coffin's Shady Beach became a private resort in the 1960s. Throughout the years, some parcels were sold. In 1990, Merritt's son, Terry, bought the resort and sold the last five acres about 2000. Beginning in 2006, five private residences were developed on the resort."
+        ],
+        "images": ["/assets/CLHA/modal/Coffins1.jpeg", "/assets/CLHA/modal/Coffins2.jpeg", "/assets/CLHA/modal/Coffins3.jpeg", "/assets/CLHA/modal/Coffins4.jpeg"]
+    },
+    {
+        "id": 8,
+        "name": "Monon Park", 
+        "time": "ca. 1895-1919", 
+        "description": [
+            "When the Monon Railroad was completed through Cedar Lake in 1881, railroad officials recognized Cedar Lake's beauty and its potential to be utilized like Lake Geneva, Wisconsin. The railroad created a recreation park at Cedar Lake to increase the ridership of their passenger trains and increase profits for the railroad. The first location of Monon Park was in what is now known as Noble Oaks Subdivision, on land once owned by John Du Breuill. The railroad leased the land from Mr. Du Breuill and asked him to build a pier and maintain 40 rowboats. He also built a hotel on his property and a dance hall. Monon Park served guests in a carnival style, with a midway and a variety of vendors selling cold drinks, ice cream and other novelties.",
+
+            "The link to Chicago brought gamblers, pick-pockets, and other criminals on the Monon too. With the consumption of alcoholic beverages, fights were common. Chicago policemen came to police the area and they clashed with the jurisdiction of local authorities. By 1895, as many five passenger trains stopped here daily. Monon Park was becoming overcrowded. When Mr. Du Breuill died and his estate was being split up by his heirs, the railroad had to look for a new location.",
+
+            "The Monon Railroad found a new site for its recreation park in 1895, about two blocks north of the first location. There were 20 acres of virtually untouched land, covered with oak and hickory trees. Many of the trees were cut down and boards were nailed to neighboring stumps to create benches. Carpenters were hired to construct a beer stand and open-air dancing pavilion, restaurant, snack shop and a bowling alley. A quarter-mile racetrack was also on the property. A large steel-framed overpass of wood was built from the top of the bluff and down to the lakefront for the guests to cross the busy railroad tracks. A high-board fence along the railroad tracks prevented guests from crossing and getting hit by trains.",
+
+            "The operation of the park continued as it had at the former site. Unfortunately, the pick-pocketing and fights continued. In 1912, the railroad officials were fed up with the conditions. Associate Pastor E.Y. Woolley of Moody Bible Church was on a passenger train in 1914 heading back to Chicago and had stopped briefly at Cedar Lake. He inquired about the place and in the same year, met with Frederic Delano, President of the Monon Railroad. An agreement was made and Moody Church became the new manager of Monon Park. There was a condition that if the church proved to be a worthy manager, within five years, the railroad would sell it to the church. In 1919, the railroad sold Monon Park to Moody Bible Church for $1.00. By 1923, the Cedar Lake Conference Association was incorporated under three elders of Moody Bible Church. The Conference Grounds is now known as Cedar Lake Ministries. Torrey Auditorium, the old beer-stand and dancing pavilion, was placed on the National Register of Historic Places in 2001."
+        ],
+        "images": ["/assets/CLHA/modal/MononParkSite1.jpg", "/assets/CLHA/modal/MononParkSite1_NobleOaksShore.jpg", "/assets/CLHA/modal/MononParkSite1ad.jpg", "/assets/CLHA/modal/MononParkSite1ad_b.jpg", "/assets/CLHA/modal/MononPark2_ConfGround.jpeg", "/assets/CLHA/modal/MononPark2_footbridge.jpeg", "/assets/CLHA/modal/MononPark2footbridge.jpg", "/assets/CLHA/modal/MononPark2_Pavilion.jpeg", "/assets/CLHA/modal/MononPark2_PicnicTrain.jpg"]
+    },
+    {
+        "id": 9,
+        "name": "Webber/Paisley Hotel", 
+        "time": "ca. 1879-1930s", 
+        "description": [
+            "Mark Webber built his two-story hotel about 1879. It was often referred to as the 'Paisley House' or 'Paisley Hotel' since it was located in the village of Paisley. The building was tucked into a sloping hill. A saloon with a long bar, barstools, and a row of spittoons were contained in the cellar. It also had five pool tables and a large storeroom in the back where goods were kept. Mr. Webber kept two steamboats and many fishing boats in a large boathouse on the lakeshore. The Webber Hotel was well-known for its home-cooked meals and a home-like atmosphere."
+        ],
+        "images": ["/assets/CLHA/modal/WebberPaisleyHotel.jpg", "/assets/CLHA/modal/WebberPaisleyHotel2.jpg"]
+    },
+    {
+        "id": 10,
+        "name": "Du Breuill Hotel", 
+        "time": "ca. 1882-1920s", 
+        "description": [
+            "Soon after the Monon Railroad was completed in Lake County, officials approached landowner John Du Breuill to build a large, two-story hotel on his property along the lakeshore, north of the Webber/Paisley Hotel. The hotel had a dance floor and bar room on the first floor and guest rooms on the second floor. It sat on the first site of the Monon Park. During its Monon Park years, gambling, drinking, and fighting were common. By 1910, the building housed workers for the Anderson and Freeman Ice Company. It was demolished in the 1920s."
+        ],
+        "images": ["/assets/CLHA/modal/DuBreuillHotel_left_JohnMitchHotel_right.jpeg"]
+    },
+    {
+        "id": 11,
+        "name": "John Mitch Hotel", 
+        "time": "ca. 1890-1914", 
+        "description": [
+            "About 1890, John Mitch built a two-story, iron cross-beamed hotel southeast of the shopping center that was across from the Monon depot. Mr. Mitch felt that he was missing customer traffic, so he put the building on rollers and moved it south. The hotel had a saloon and the rooms had 9-foot high ceilings. According to a local legend, the black heavyweight champion boxer Jack Johnson stayed at the Mitch Hotel in the summer of 1909, while he trained at Cedar Lake for his 1910 bout with Jim Jeffries. Unfortunately, the hotel burned down during a large neighborhood fire in 1914, the same year that John died from being severely beaten by two drunk men whom he refused to serve."
+        ],
+        "images": ["/assets/CLHA/modal/DuBreuillHotel_left_JohnMitchHotel_right.jpeg"]
+    },
+    {
+        "id": 12,
+        "name": "Big 3 Inn", 
+        "time": "ca. 1920-1930", 
+        "description": [
+            "In 1920, three Chicago businessmen entered a resort venture in Cedar Lake by putting their money together to build a long, two-story hotel south of the west side shopping center. It had a dance floor on the first story, with a bar room at the south end, and spacious rooms upstairs. It was called the Big Three Inn for the three investors. These businessmen were highly successful until the Great Depression and then the hotel burned down."
+        ],
+        "images": ["/assets/CLHA/modal/BigThreeInn.jpeg"]
+    },
+    {
+        "id": 13,
+        "name": "Monon Depot/Cedar Lake Station", 
+        "time": "ca. 1898-1947", 
+        "description": [
+            "When the Monon Railroad was completed in 1881, two depots were established in the village of Armour, at the northwestern shore, and the village of Paisley, at the southwestern shore. These were shipping points and where the mail was sent. The various resorts that had launches or steam-powered boats that met the trains took visitors to resorts or other lakeshore destinations for about 15 cents. The new Monon depot, or Cedar Lake Station, was built in 1898 and replaced the Armour and Paisley depots. The Monon Railroad had just undergone another merger and became the Chicago, Indianapolis and Louisville Railroad. This depot was at the lake's midwestern shore. Included at the site was a pier where the launches met travelers.",
+
+            "In the years after the railroad tracks were moved off the lakeshore, the outside of the depot was altered as it changed ownership. It was the A & F Snack Shop in the 1960s and 1970s. It was a restaurant under many owners, including Florence Puccini. By the early 2000s, the old depot was torn down to make room for the townhouses that stand in the location today."
+        ],
+        "images": ["/assets/CLHA/modal/MononDepotAFSnackShop.jpg", "/assets/CLHA/modal/MononDepotCLstation.jpeg", "/assets/CLHA/modal/MononDepotCLstation2.jpeg", "/assets/CLHA/modal/MononDepotElevation.jpg", "/assets/CLHA/modal/MononDepotInterior.jpg", "/assets/CLHA/modal/MononDepotRestaurant.jpg", "/assets/CLHA/modal/MononDepotTimetable1889.jpg", "/assets/CLHA/modal/MononDepotTimetable1889map.jpg"]
+    },
+    {
+        "id": 14,
+        "name": "Sigler House/Hotel/Monon Hotel", 
+        "time": "ca. 1890-1914", 
+        "description": [
+            "This large, 100-room hotel stood just north of the Monon Depot and was built by Charles Sigler about 1890. Like other resorts, it was famous for its chicken dinners. During the Monon Park days, it sold picnic lunches to the guests. Some advertisements give the name of the hotel as the Sigler House or Hotel. Because it served Monon Park, it was also called the Monon Hotel. The hotel had a pier and provided boating and fishing and even served as a meeting place for various social groups of Cedar Lake and the vicinity. In 1914, the hotel burned down, purportedly due to an overheated fireplace. Monte Biesecker replaced it with a restaurant and pier managed by Bill Gerbing and Tobias Spindler."
+        ],
+        "images": ["/assets/CLHA/modal/MononHotel_laterSiglerHotel.jpeg", "/assets/CLHA/modal/MononHotelPier.jpg"]
+    },
+    {
+        "id": 15,
+        "name": "Glendenning Hotel", 
+        "time": "ca. 1915-1935", 
+        "description": [
+            "On top of the western bluff, not too far north of the Sigler Hotel, Chicago businessman Robert Glendenning built a 30-room, $30,000 hotel in 1915. It also had a spacious dining room. Mr. Glendenning was a friend of the Moody Bible Church of Chicago and saw a need for accommodations for the guests of the Moody Grounds and donated it to the church. About 1928, the hotel was cut up into sections and moved onto the Moody property. Close to Labor Day 1935, the hotel burned to the ground. The conference association did not have insurance. Despite this, through donations by friends of the Cedar Lake Conference Association and a loan from the First National Bank of Crown Point, a new hotel named Rest-A-While rose from the ashes of the Glendenning Hotel in 1936. The property is owned by Cedar Lake Ministries."
+        ],
+        "images": ["/assets/CLHA/modal/GlendenningHotel.jpeg"]
+    },
+    {
+        "id": 16,
+        "name": "Hunter Hotel", 
+        "time": "ca. 1882-early 1900s", 
+        "description": [
+            "Not too long after the Monon Railroad was completed, railroad officials negotiated with Dr. Robert Hunter of Chicago to build a hotel at the lake's northwestern shore. In six months, he spent $3,000 for a 100-room hotel to be built. The land that he built the hotel on was leased from John Meyer. This resort also included a steam-powered boat that could hold up to 40 people. By the early 1900s the hotel had burned down."
+        ],
+        "images": ["/assets/CLHA/modal/HuntersPark_noPics_illusLocatedSameSpotThough.jpg"]
+    },
+    {
+        "id": 17,
+        "name": "Von Borstel Hotel", 
+        "time": "ca. 1883-1894", 
+        "description": [
+            "Owned by Adolph Von Borstel, Sr., the hotel sat on John Meyer's land. It served sportsmen. During the peak season, 15 people were hired to handle the customer service. In August, 1883, Mr. Meyer and Dr. Hunter built a high-board fence on the property, which created a dispute between Von Borstel and Hunter over who controlled what part of the property. The argument became so heated that at one point, Dr. Hunter and Mr. Von Borstel drew pistols at each other, but separated before any shots. Later, this hotel burned down. In 1894, Adolph Von Borstel, Jr., built a hotel at Edgewater Beach, the site of the present-day Town Club Tavern."
+        ],
+        "images": []
+    },
+    {
+        "id": 18,
+        "name": "Terrace Garden Beach", 
+        "time": "ca. 1920s-1930s", 
+        "description": [
+            "Sometime during the 1920s, Ruth Ackerman purchased 4.33 acres of land at the north end of Cedar Lake and began Terrace Garden Beach. The land that she owned was on the present-day Lake Shore Drive, both on top of the highland and down below on the shoreline. This resort consisted of a restaurant, clubhouse, dance pavilion, cottage, store and twin beach houses on the lake. Most of these buildings were built in 1923, but the dance pavilion was not complete until 1929. Mrs. Ackerman advertised the resort in the Chicago Tribune and through other means. She rented out the cottage and beach houses to many during both summer and winter, but also rented the entire resort to those who wanted to earn money. Resort operators had to maintain the grounds and buildings and pay the necessary bills besides the rent that was owed to Mrs. Ackerman. A variety of food was available in the restaurant and various concessions like ice cream, soda, candy and tobacco were plentiful at the store. Sometime during the 1930s the resort burned. In the 1940s it was sold to the Collins family. When the old restaurant was torn down, a tunnel, vat and other items were discovered, which led to the thought that the resort may have been a house of ill repute and a speakeasy during the Prohibition era."
+        ],
+        "images": ["/assets/CLHA/modal/Terrace Garden Beach cottage.jpeg", "/assets/CLHA/modal/Terrace Garden Beach restaurant advertising card.jpeg", "/assets/CLHA/modal/Terrace Garden Beach restaurant and clubhouse.jpeg", "/assets/CLHA/modal/TerraceGardenBeach_ad.JPG"]
+    },
+    {
+        "id": 19,
+        "name": "Lakeview Hotel/Park", 
+        "time": "ca. 1910-1920", 
+        "description": [
+            "Valentine and Marie Ploetz built the two-story Lakeview Hotel in 1910, now the site of the Water's Edge Condominiums. During the winter of 1912, an employee fell through the ice on the lake and Valentine, Sr., tried to help. Valentine, Jr., saved the employee, but unfortunately, Valentine, Sr., drowned. Marie continued to operate the hotel until it burned in 1920 and ran Lakeview Park until the 1930s."
+        ],
+        "images": ["/assets/CLHA/modal/Lakeview.jpeg", "/assets/CLHA/modal/LakeviewParkHotel.jpg"]
+    },
+    {
+        "id": 20,
+        "name": "Bartell's Resort", 
+        "time": "ca. 1926-1930s", 
+        "description": [
+            "Originally known as Dick Smith's North Shore Inn or Dick Smith's, Dick Bartell bought the resort about 1926. Unfortunately, like all of the other resorts at Cedar Lake during the Great Depression, it suffered. By the 1950s, the building became the Surf Side 6 Teen Club. It burned down in the 1960s."
+        ],
+        "images": ["/assets/CLHA/modal/Bartells_firstDickSmiths.jpeg", "/assets/CLHA/modal/BartellsLater_firstDickSmiths.jpeg"]
+    },
+    {
+        "id": 21,
+        "name": "Hetzler's Hotel/ Victor's Beach", 
+        "time": "ca. 1895-1950", 
+        "description": [
+            "Resort owner Adam Hetzler built a hotel and saloon at the north end of the lake in 1985. On October 13, 1903, it burned down, at a loss of about $2,500. He soon rebuilt a new hotel. His son, Anthony, added a waterslide. Adam sold the property in 1928 to Victor Nadison and it became Victor's Beach. Half an hour admissino on the slide cost 35 cents. Victor's earned a questionable reputation for women and gangsters. In fact, on November 6, 1933, Chicago gangster James Sammons was arrested here by a Lake County Sheriff's Deputy for drunkenness. Sammons served 10 years at the Indiana State Prison in Michigan City before he was returned to Illinois to serve the remaining 30 years of his original life sentence. The hotel burned about 1950. The Cedar Lake Chamber of Commerce and Indiana Department of Natural Resources boat launch are located on this site."
+        ],
+        "images": ["/assets/CLHA/modal/VictorsBeach.jpg", "/assets/CLHA/modal/VictorsBeachAdvertisingCard.jpeg", "/assets/CLHA/modal/VictorsBeachWaterWheel.jpg"]
+    },
+    {
+        "id": 22,
+        "name": "Iron Lantern Inn", 
+        "time": "ca. 1920s-1930s", 
+        "description": [
+            "No details are known about this small hotel."
+        ],
+        "images": ["/assets/CLHA/modal/IronLanternInn.jpeg"]
+    },
+    {
+        "id": 23,
+        "name": "Young's Hotel", 
+        "time": "ca. 1924-1930s", 
+        "description": [
+            "Young's sat adjacent to the land currently known as Bartlett-Wahlberg park in the busy business section along Cedar Lake's northeastern shore. They rented hotel rooms and boats to guests and operated a grocery store and delicatessen. When it was demolished, Lake Shore Hardware was built in its place in 1946. Aron Schuhrke's State Farm office now occupies the hardware store."
+        ],
+        "images": ["/assets/CLHA/modal/YoungsHotel.jpeg", "/assets/CLHA/modal/YoungsPlace_ZeigersBakeryFromLake.jpeg"]
+    },
+    {
+        "id": 24,
+        "name": "Huntsman's Lodge", 
+        "time": "ca. 1869-1900s", 
+        "description": [
+            "Built about 1869 by Grosvenor Adams and S. Burson, this early resort attracted sportsmen from as far away as Europe for hunting excursions. The first floor was one large room and the second floor had two small rooms. By about 1901 it was modified into a dance hall, and later, realtor Samuel Bartlett owned the property all the way down to the lakeshore where the Bartlett/Wahlberg Memorial Park is now."
+        ],
+        "images": ["/assets/CLHA/modal/HuntsmansLodge_circa1900.jpeg"]
+    },
+    {
+        "id": 25,
+        "name": "Ellery's Inn", 
+        "time": "ca. 1920s-1930s", 
+        "description": [
+            "No details are known about this resort property."
+        ],
+        "images": ["/assets/CLHA/modal/EllerysConcessionAd.jpeg"]
+    },
+    {
+        "id": 26,
+        "name": "Top Flight Hotel", 
+        "time": "ca. 1912-1946", 
+        "description": [
+            "Adam Hetzler built this hotel in 1912 on the site of present-day Rosati's Pizza. His son, George, managed it, but could not afford to pay the taxes. Adam sold to his sister, Mary Kubal-Stife. Mary later gave it to her son, James Kubal. James wanted a liquor license, but at that time a 25-room hotel was required to obtain one. In 1946, he moved the Top Flight Hotel across the street and attached it to Midway Ballroom on the shoreline."
+        ],
+        "images": ["/assets/CLHA/modal/TopFlightHotel.jpeg"]
+    },
+    {
+        "id": 27,
+        "name": "Sunset Hotel", 
+        "time": "ca. 1920-1930s", 
+        "description": [
+            "In 1920, Adam Hetzler bought one of the buildings from the Stanley Resort and had it moved north to where the east side shopping center (Dollar General, Gleaner's, Sips, etc.) is now located. It was a small hotel and store. Mary Hetzler worked here for her mother, She married Jack Stife about 1924 and the area became known as Stife's Corner. The business offered steak and chicken dinners, light lunches, and sandwiches. The grocery store included a meat market. The east side shopping center was built around the hotel and the second story is still visible above the shopping center roofline."
+        ],
+        "images": ["/assets/CLHA/modal/Sunset Hotel_thenStifesPlace.jpeg", "/assets/CLHA/modal/Sunset_StifesPlace_akaHotel.jpeg"]
+    },
+    {
+        "id": 28,
+        "name": "Midway Gardens/Ballroom", 
+        "time": "ca. 1920-1987", 
+        "description": [
+            "In 1920, two Chicago doctors leased lakefront property from Adam Hetzler and established Midway Gardens. The doctors left during the Great Depression, but Mr. Hetzler continued the business. Swing and Jazz was popular in the early years, followed by Big Band music. Adam retired in 1934 and his son, George, assumed business operations. George's nephew, James Kubal, bought the business and he changed the name to Midway Ballroom in 1946. Midway Ballroom featured performers like Stan Kenton, Les Brown, Ralph Marterie, and Frankie Yankovich. When the bands took breaks, music was provided from the majestic radio that was in the ballroom. During the Great Depression, free nights were on Tuesdays and Thursdays and free orangeade was available on Wednesdays and Fridays.",
+
+            "By the 1950s and 1960s, Rock and Roll became the rage and performers such as the Everly Brothers, the Beach Boys, and Bobby Rydell performed here. In the 1970s, Midway Ballroom had a country atmosphere with performers like Barbara Mandrell, the Oak Ridge Boys, and Conway Twitty. Rock and Roll returned in the 1980s. Well-known bands such as Steppenwolf, Foghat, Survivor, and Iron Butterfly were featured. In late April 1987, Midway Ballroom burned down, devastating the Kubal family, as well as all of the music and dance enthusiasts that cherished the local landmark that lasted for 67 years."
+        ],
+        "images": ["/assets/CLHA/modal/MidwayGardens.jpeg", "/assets/CLHA/modal/MidwayGardens2.jpg"]
+    },
+    {
+        "id": 29,
+        "name": "Derby Hotel", 
+        "time": "ca. 1904-1930s", 
+        "description": [
+            "William White built a hotel called White City Pavilion in 1904 at the location of present-day Sandbar Grill. It was here that saloonkeeper James Leather, Sr., was shot by Chicago gangsters John Lynch and James Sammons on August 21, 1917, because of an argument over a bet. James died on August 26, 1917. By 1928, James Leather, Jr., bought the hotel and renamed it the Derby Hotel. He and his mother, Millie, operated the resort. Through the years, this business was occasionally raided by the local authorities and charged several times for liquor violations and keeping a house of ill repute. "
+        ],
+        "images": ["/assets/CLHA/modal/DerbyHotel.jpeg", "/assets/CLHA/modal/DerbyHotel2.jpeg", "/assets/CLHA/modal/DerbyHotelad.jpeg"]
+    },
+    {
+        "id": 30,
+        "name": "Burke Hotel", 
+        "time": "ca. 1885-1900", 
+        "description": [
+            "The Burke family built a hotel in 1885 on the west side of the bluff (now removed), along the lakeshore, near present-day Sunset Harbor Condominiums. There was a set of stairs that went up the side to the windmill on top. This hotel mainly catered to fishermen and provided meals, boarding, and boating. This hotel did not attract the upper-class who came to Cedar Lake."
+        ],
+        "images": []
+    },
+    {
+        "id": 31,
+        "name": "Kennedy Hotel", 
+        "time": "ca. 1900-1968", 
+        "description": [
+            "About 1900, Barbara Kennedy inherited property at this same site and had a large hotel built on top of the bluff. Early advertisements indicate her husband, John, as the owner and manager of the hotel. It was one of the larger hotels, known for its home-cooking and home-like atmosphere. According to legend, one person who frequented the hotel was gangster Al Capone. It is said that sometime during the 1920s there was an attempt by rival gangsters to kill Capone. A gunfight resulted in the bricks of the hotel's front porch being riddled with bullet holes. Al Capone had escaped death. During WWII, James Kubal, proprietor of Midway Ballroom, bought the property and extensively renovated in the 1960s. However, the hotel burned down in 1968.",
+
+            "Earlier, in 1836, Dr. Calvin Lilley settled at this same site, on top of the bluff. He established one of the earliest inns in Lake County. This also included a store. He was charged $15 for his licenses to operate an inn and sell foreign and domestic goods. Dr. Lilley died in 1839."
+        ],
+        "images": ["/assets/CLHA/modal/KennedyHotel.jpeg", "/assets/CLHA/modal/KennedyHotel2.jpeg", "/assets/CLHA/modal/KennedyHotelFire.jpeg"]
+    },
+    {
+        "id": 32,
+        "name": "Cedar Point Hotel", 
+        "time": "ca. 1895-1914", 
+        "description": [
+            "Charles Sigler built this large hotel on Cedar Point in 1895. Until 1913, it known as the Cedar Point Hotel. After that it was renamed the Thistlewaite Hotel, after the Thistlewaite brothers, who helped finance the building of the structure. Like the Sigler Hotel on the west side of the lake, it was lavishly furnished with carpets and wall hangings. It had a maple-wood dance-floor and a lobby, reading room, drawing room, and dining room on the first floor. It also had a regular orchestra that provided music for dancing. The hotel also provided boating and fishing. The garden provided many of the foods that were served to the guests. This grand hotel burned down in 1914. After the fire, Joseph Hoffman acquired the caretaker's house and moved it north and started the Hoffman Hotel."
+        ],
+        "images": ["/assets/CLHA/modal/CedarPointHotel.jpeg", "/assets/CLHA/modal/CedarPointHotel2.jpeg"]
+    },
+    {
+        "id": 33,
+        "name": "Stanley's Hotel", 
+        "time": "ca. 1882-1920", 
+        "description": [
+            "J. and Frank Stanley came to Cedar Lake in the early 1880s from North Carolina and purchased 20 acres of land south of Cedar Point. Along with them came their caretaker Addison Holmes, a freed slave and the earliest documented black man to come to Cedar Lake. He was also a chauffeur and bodyguard to President Ulysses S. Grant. The Stanley brothers and caretaker Holmes built a series of buildings from cork pine that was shipped from the east, using square copper nails and dowels. A hotel, caretaker's house, and a bowling alley comprised the resort. It closed in 1920 when land was sold to Enoch Peterson. Caretaker Holmes retained some of the property and continued to live at Cedar Lake until his death. Holmes' daughters started a restaurant called the Homestead Inn, close to Morse Avenue, around 1920. It featured chicken and rib dinners."
+        ],
+        "images": []
+    },
+    {
+        "id": 34,
+        "name": "Cedar Lake Yacht Club", 
+        "time": "ca. 1934 - Present", 
+        "description": [
+            "On July 21, 1934, the Cedar Lake Yacht Club was organized at Surprise Park Golf and Boat Club at the south end of Cedar Lake. W.P Dudley, Commodore, was the founder. The first race occurred on 22 July, 1934. The club was incorporated on May 8, 1935. For the first few years, races were not restricted to one class of boat. In 1944, the club had 14 E-scows racing. There was no racing in 1945, but resumed in 1946. The club was inactive from 1952-1956 due to the difficult economy after WWII. In 1958, the Ben-Ric-Way Corporation was formed and in 1959 the current building and grounds were purchased with the corporation as the owner. In 1964, Ben-Ric-Way decided that the facilities should be owned by the general membership. The clubhouse is the former home of Chris Lassen who managed Lassen's Resort. The tradition of the Cedar Lake Yacht Club continues with the Ice-Breaker Regatta every May. "
+        ],
+        "images": []
+    }
+]

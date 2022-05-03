@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.bfb9c681.css",
-    "main.js": "./static/js/main.bfbe662d.js",
+    "main.css": "./static/css/main.5c5ad5f7.css",
+    "main.js": "./static/js/main.58760b75.js",
     "static/js/630.c67f7ed8.chunk.js": "./static/js/630.c67f7ed8.chunk.js",
     "static/js/738.25b24187.chunk.js": "./static/js/738.25b24187.chunk.js",
     "static/js/372.64e90dce.chunk.js": "./static/js/372.64e90dce.chunk.js",
@@ -12,10 +12,13 @@
     "static/js/841.0169b043.chunk.js": "./static/js/841.0169b043.chunk.js",
     "static/js/186.c06b02ba.chunk.js": "./static/js/186.c06b02ba.chunk.js",
     "static/js/377.9b2f343f.chunk.js": "./static/js/377.9b2f343f.chunk.js",
+    "static/media/Resort_Map_wall.jpg": "./static/media/Resort_Map_wall.8f98a5a5a05c04772475.jpg",
+    "static/media/CenturyGothic.ttf": "./static/media/CenturyGothic.b1b792bab1bff8f27ba7.ttf",
+    "static/media/AbrahamLincoln.ttf": "./static/media/AbrahamLincoln.dfdbd4d59c4b8a97cdb4.ttf",
     "service-worker.js": "./service-worker.js",
     "index.html": "./index.html",
-    "main.bfb9c681.css.map": "./static/css/main.bfb9c681.css.map",
-    "main.bfbe662d.js.map": "./static/js/main.bfbe662d.js.map",
+    "main.5c5ad5f7.css.map": "./static/css/main.5c5ad5f7.css.map",
+    "main.58760b75.js.map": "./static/js/main.58760b75.js.map",
     "630.c67f7ed8.chunk.js.map": "./static/js/630.c67f7ed8.chunk.js.map",
     "738.25b24187.chunk.js.map": "./static/js/738.25b24187.chunk.js.map",
     "372.64e90dce.chunk.js.map": "./static/js/372.64e90dce.chunk.js.map",
@@ -28,7 +31,7 @@
     "377.9b2f343f.chunk.js.map": "./static/js/377.9b2f343f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfb9c681.css",
-    "static/js/main.bfbe662d.js"
+    "static/css/main.5c5ad5f7.css",
+    "static/js/main.58760b75.js"
   ]
 }
