@@ -9,7 +9,7 @@ import {
   IonTabs,
   setupIonicReact
 } from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
+import { IonReactRouter, IonReactHashRouter } from '@ionic/react-router';
 import { card, map, trailSign, people } from 'ionicons/icons';
 import Map from './pages/Map';
 import Visit from './pages/Visit';
@@ -40,7 +40,7 @@ setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter>
+    <IonReactHashRouter>
       <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/map">
@@ -59,7 +59,7 @@ const App: React.FC = () => (
             <AR />
           </Route>
           <Route exact path="/">
-            <Redirect to="/tab1" />
+            <Redirect to="/map" />
           </Route>
         </IonRouterOutlet>
 
@@ -82,7 +82,7 @@ const App: React.FC = () => (
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
-    </IonReactRouter>
+    </IonReactHashRouter>
   </IonApp>
 );
 
