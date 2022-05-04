@@ -1,14 +1,15 @@
-.mapImg {
-  height: 204vw;
-  width: 100vw;
-  object-fit: cover;
-  
-}
-
 .mapPinpoints {
   position: relative;
+  height: 204vw;
+  width: 100vw;
+  z-index: 18;
+}
+
+.mapImg {
   height: 100%;
   width: 100%;
+  object-fit: cover;
+  z-index: 15;
 }
 
 .modal_button {
@@ -29,6 +30,7 @@
 }
 
 .pinpoint {
+  z-index: 20;
   /* border: red 2px solid; */
   position: absolute;
   cursor: pointer;
