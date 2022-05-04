@@ -23,7 +23,7 @@ export default function Donate() {
         <div className="donateWrapper">
           <IonText>
             <h1 className="donateHeader">Be a part of history</h1>
-            <p>Help us present the relevvance of Cedar Lake</p>
+            <p>Help us present the relevance of Cedar Lake</p>
             <h1 className="donateHeader">Donate with PayPal</h1>
           </IonText>
           <IonText>

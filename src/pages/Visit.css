@@ -5,7 +5,7 @@
 
 .visitWrapper {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,7 @@
 
 .visitImg {
   width: 80%;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .visitText {
@@ -38,4 +38,5 @@ p {
 .visitBtn {
   width: 75%;
   margin: 0 12.5%;
+  margin-bottom: 50px;
 }
