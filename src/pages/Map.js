@@ -13,13 +13,22 @@ import {
   IonCardTitle,
   IonCardSubtitle,
   IonImg,
+  IonIcon,
 } from "@ionic/react";
 import "./Map.css";
+import { pin } from "ionicons/icons";
 
 export default function Map() {
   const [mapData, setMapData] = useState([]);
   const [pinpoint, setPinpoint] = useState(0);
   const [showModal, setShowModal] = useState(false);
+
+  // Array of class names that should not display the pin icon
+  const hiddenPinIcons = [
+    "potawatomi_summer_camp",
+    "lassens_resort",
+    "cedar_lake_station",
+  ];
 
   useEffect(() => {
     fetch("data/data.json")
@@ -29,276 +38,82 @@ export default function Map() {
       });
   }, [pinpoint]);
 
+  const pinpointList = [
+    { className: "lassens_resort" },
+    { className: "binyons_resort" },
+    { className: "toomeys_park" },
+    { className: "shamrock_inn" },
+    { className: "sans_souci_hotel" },
+    { className: "olsen_hotel" },
+    { className: "surprise_park" },
+    { className: "shady_beach" },
+    { className: "monon_park" },
+    { className: "webber_paisley_hotel" },
+    { className: "breuill_hotel" },
+    { className: "john_mitch_hotel" },
+    { className: "big3_inn" },
+    { className: "cedar_lake_station" },
+    { className: "sigler_monon" },
+    { className: "gledenning_hotel" },
+    { className: "hunter_hotel" },
+    { className: "von_borstel_hotel" },
+    { className: "terrace_garden_beach" },
+    { className: "lakeview_hotel" },
+    { className: "bartells_resort" },
+    { className: "victors_beach" },
+    { className: "iron_lantern_inn" },
+    { className: "youngs_hotel" },
+    { className: "huntsmans_lodge" },
+    { className: "ellerys_inn" },
+    { className: "top_flight_hotel" },
+    { className: "sunset_hotel" },
+    { className: "midway_gardens" }, // This pin will be yellow
+    { className: "derby_hotel" },
+    { className: "burke_hotel" },
+    { className: "kennedy_hotel" },
+    { className: "cedar_point_hotel" },
+    { className: "stanleys_hotel" },
+    { className: "potawatomi_summer_camp" },
+  ];
+
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>CLHA | Map</IonTitle>
+          <IonTitle>Resorts of Cedar Lake</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        {/* mapImg is a big relative with the background image. On top of it are a bunch of tiny absolute divs, (uncomment the red border on pinpoint class in Map.css to see visual) each of these divs points to an array in data.json and opens a modal component setup below */}
         <div className="mapPinpoints">
           <IonImg
             src="/assets/CLHA/Resort_Map_wall-min.jpg"
             className="mapImg"
           ></IonImg>
-          <div
-            className="pinpoint lassens_resort"
-            onClick={() => {
-              setPinpoint(0);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint binyons_resort"
-            onClick={() => {
-              setPinpoint(1);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint toomeys_park"
-            onClick={() => {
-              setPinpoint(2);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint shamrock_inn"
-            onClick={() => {
-              setPinpoint(3);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint sans_souci_hotel"
-            onClick={() => {
-              setPinpoint(4);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint olsen_hotel"
-            onClick={() => {
-              setPinpoint(5);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint surprise_park"
-            onClick={() => {
-              setPinpoint(6);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint shady_beach"
-            onClick={() => {
-              setPinpoint(7);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint monon_park"
-            onClick={() => {
-              setPinpoint(8);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint webber_paisley_hotel"
-            onClick={() => {
-              setPinpoint(9);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint breuill_hotel"
-            onClick={() => {
-              setPinpoint(10);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint john_mitch_hotel"
-            onClick={() => {
-              setPinpoint(11);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint big3_inn"
-            onClick={() => {
-              setPinpoint(12);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint cedar_lake_station"
-            onClick={() => {
-              setPinpoint(13);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint sigler_monon"
-            onClick={() => {
-              setPinpoint(14);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint gledenning_hotel"
-            onClick={() => {
-              setPinpoint(15);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint hunter_hotel"
-            onClick={() => {
-              setPinpoint(16);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint von_borstel_hotel"
-            onClick={() => {
-              setPinpoint(17);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint terrace_garden_beach"
-            onClick={() => {
-              setPinpoint(18);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint lakeview_hotel"
-            onClick={() => {
-              setPinpoint(19);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint bartells_resort"
-            onClick={() => {
-              setPinpoint(20);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint victors_beach"
-            onClick={() => {
-              setPinpoint(21);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint iron_lantern_inn"
-            onClick={() => {
-              setPinpoint(22);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint youngs_hotel"
-            onClick={() => {
-              setPinpoint(23);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint huntsmans_lodge"
-            onClick={() => {
-              setPinpoint(24);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint ellerys_inn"
-            onClick={() => {
-              setPinpoint(25);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint top_flight_hotel"
-            onClick={() => {
-              setPinpoint(26);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint sunset_hotel"
-            onClick={() => {
-              setPinpoint(27);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint midway_gardens"
-            onClick={() => {
-              setPinpoint(28);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint derby_hotel"
-            onClick={() => {
-              setPinpoint(29);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint burke_hotel"
-            onClick={() => {
-              setPinpoint(30);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint kennedy_hotel"
-            onClick={() => {
-              setPinpoint(31);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint cedar_point_hotel"
-            onClick={() => {
-              setPinpoint(32);
-              setShowModal(true);
-            }}
-          ></div>
-          <div
-            className="pinpoint stanleys_hotel"
-            onClick={() => {
-              setPinpoint(33);
-              setShowModal(true);
-            }}
-          ></div>
 
-          {/* Below div was not found on image map */}
-
-          {/* <div
-            className="pinpoint cedar_lake_yacht_club"
-            onClick={() => {
-              setPinpoint(34);
-              setShowModal(true);
-            }}
-          ></div> */}
+          {pinpointList.map((pinpoint, index) => (
+            <div
+              className={`pinpoint ${pinpoint.className}`}
+              onClick={() => {
+                setPinpoint(index);
+                setShowModal(true);
+              }}
+              key={index}
+            >
+              {/* Conditionally render pinIcon */}
+              {!hiddenPinIcons.includes(pinpoint.className) && (
+                <IonIcon
+                  icon={pin}
+                  className={`pinIcon ${
+                    pinpoint.className === "midway_gardens" ? "yellowPin" : ""
+                  }`}
+                />
+              )}
+            </div>
+          ))}
         </div>
 
         {mapData.length > 1 && (
-          <IonModal
-            isOpen={showModal}
-            swipeToClose={true}
-            onDidDismiss={() => setShowModal(false)}
-          >
+          <IonModal isOpen={showModal} onDidDismiss={() => setShowModal(false)}>
             <IonContent>
               <IonCard>
                 <IonCardHeader>

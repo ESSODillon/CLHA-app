@@ -32,8 +32,28 @@
 .pinpoint {
   z-index: 20;
   /* border: red 2px solid; */
+  /* background-color: white;
+  opacity: 0.5; */
   position: absolute;
   cursor: pointer;
+}
+
+.mapPinpoints .pinpoint {
+  position: absolute;
+  cursor: pointer;
+}
+
+.pinIcon {
+  color: #234735;
+  font-size: 2vw;
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  transform: translateY(-50%);
+}
+
+.yellowPin {
+  color: #c8b72e;
 }
 
 .shady_beach {
@@ -272,4 +292,14 @@
   width: 10vw;
   top: 96vw;
   left: 68vw;
+}
+
+/* This one specifically needs a yellow triangle in the center of it */
+.potawatomi_summer_camp {
+  height: 3vw;
+  width: 4vw;
+  top: 71vw;
+  left: 86vw;
+  background-color: #c8b72e;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
