@@ -57,17 +57,17 @@
 }
 
 .shady_beach {
-  height: 12vw;
+  height: 6vw;
   width: 12vw;
-  bottom: 4vw;
-  left: 34vw;
+  bottom: 6.5vw;
+  left: 35.5vw;
 }
 
 .surprise_park {
-  height: 12vw;
+  height: 6vw;
   width: 12vw;
-  bottom: 20vw;
-  left: 64vw;
+  bottom: 22vw;
+  left: 65vw;
 }
 
 .lassens_resort {
@@ -78,73 +78,73 @@
 }
 
 .binyons_resort {
-  height: 7vw;
+  height: 6vw;
   width: 10vw;
-  bottom: 69vw;
-  left: 63vw;
+  bottom: 68vw;
+  left: 66vw;
 }
 
 .toomeys_park {
   height: 6vw;
   width: 10vw;
-  bottom: 63vw;
+  bottom: 63.5vw;
   left: 59vw;
 }
 
 .shamrock_inn {
   height: 5vw;
   width: 10vw;
-  bottom: 58vw;
+  bottom: 59vw;
   left: 59vw;
 }
 
 .sans_souci_hotel {
   height: 5vw;
   width: 10vw;
-  bottom: 53vw;
-  left: 62vw;
+  bottom: 53.5vw;
+  left: 63.5vw;
 }
 
 .olsen_hotel {
-  height: 12vw;
-  width: 12vw;
-  bottom: 36vw;
-  left: 65vw;
+  height: 6vw;
+  width: 8vw;
+  bottom: 39vw;
+  left: 68vw;
 }
 
 .monon_park {
   height: 8vw;
   width: 12vw;
   bottom: 86vw;
-  left: 13vw;
+  left: 15vw;
 }
 
 .webber_paisley_hotel {
   height: 6vw;
   width: 12vw;
   bottom: 37vw;
-  left: 12vw;
+  left: 13vw;
 }
 
 .breuill_hotel {
   height: 5vw;
   width: 12vw;
-  bottom: 49vw;
-  left: 17vw;
+  bottom: 49.5vw;
+  left: 19vw;
 }
 
 .john_mitch_hotel {
   height: 4vw;
   width: 12vw;
-  bottom: 54vw;
-  left: 17vw;
+  bottom: 53.5vw;
+  left: 19vw;
 }
 
 .big3_inn {
   height: 4vw;
   width: 12vw;
-  bottom: 58vw;
-  left: 19vw;
+  bottom: 57vw;
+  left: 23vw;
 }
 
 .cedar_lake_station {
@@ -158,28 +158,28 @@
   height: 5vw;
   width: 11vw;
   bottom: 68vw;
-  left: 24vw;
+  left: 26vw;
 }
 
 .gledenning_hotel {
   height: 5vw;
   width: 12vw;
-  bottom: 73vw;
-  left: 21vw;
+  bottom: 72vw;
+  left: 22vw;
 }
 
 .hunter_hotel {
   height: 5vw;
   width: 12vw;
-  top: 80vw;
-  left: 6vw;
+  top: 79vw;
+  left: 9.5vw;
 }
 
 .von_borstel_hotel {
   height: 5vw;
   width: 12vw;
-  top: 75vw;
-  left: 6vw;
+  top: 74.5vw;
+  left: 9vw;
 }
 
 .terrace_garden_beach {
@@ -192,21 +192,21 @@
 .lakeview_hotel {
   height: 4vw;
   width: 5vw;
-  top: 34vw;
-  left: 44vw;
+  top: 33vw;
+  left: 43vw;
 }
 
 .bartells_resort {
   height: 4vw;
   width: 4vw;
-  top: 34vw;
-  left: 49vw;
+  top: 33vw;
+  left: 48.5vw;
 }
 
 .victors_beach {
   height: 4vw;
   width: 5vw;
-  top: 35vw;
+  top: 34.5vw;
   left: 53vw;
 }
 
@@ -227,7 +227,7 @@
 .huntsmans_lodge {
   height: 4vw;
   width: 9vw;
-  top: 47vw;
+  top: 46vw;
   left: 76vw;
 }
 
@@ -235,7 +235,7 @@
   height: 4vw;
   width: 9vw;
   top: 57vw;
-  left: 81vw;
+  left: 83vw;
 }
 
 .top_flight_hotel {
@@ -248,8 +248,8 @@
 .sunset_hotel {
   height: 3vw;
   width: 8vw;
-  top: 63.5vw;
-  left: 84vw;
+  top: 63.25vw;
+  left: 85vw;
 }
 
 .midway_gardens {
@@ -263,35 +263,35 @@
   height: 3vw;
   width: 8vw;
   top: 66.5vw;
-  left: 84vw;
+  left: 85vw;
 }
 
 .burke_hotel {
   height: 3vw;
   width: 8vw;
   top: 76.5vw;
-  left: 84vw;
+  left: 84.5vw;
 }
 
 .kennedy_hotel {
   height: 3vw;
   width: 8vw;
-  top: 76.5vw;
-  left: 84vw;
+  top: 74vw;
+  left: 85.5vw;
 }
 
 .cedar_point_hotel {
   height: 5vw;
   width: 10vw;
   top: 86.5vw;
-  left: 61vw;
+  left: 62vw;
 }
 
 .stanleys_hotel {
   height: 5vw;
   width: 10vw;
   top: 96vw;
-  left: 68vw;
+  left: 69vw;
 }
 
 /* This one specifically needs a yellow triangle in the center of it */
