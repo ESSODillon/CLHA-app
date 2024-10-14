@@ -8,6 +8,8 @@ object-assign
  * (C) Ionic http://ionicframework.com - MIT License
  */
 
+/*!__STENCIL_STATIC_IMPORT_SWITCH__*/
+
 /** @license React v0.20.2
  * scheduler.production.min.js
  *
