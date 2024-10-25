@@ -16,7 +16,7 @@ import {
   IonIcon,
 } from "@ionic/react";
 import "./Map.css";
-import { pin } from "ionicons/icons";
+import { pin, boat } from "ionicons/icons";
 
 export default function Map() {
   const [mapData, setMapData] = useState([]);
@@ -67,13 +67,19 @@ export default function Map() {
     { className: "ellerys_inn" },
     { className: "top_flight_hotel" },
     { className: "sunset_hotel" },
-    { className: "midway_gardens" }, // This pin will be yellow
+    { className: "midway_gardens" },
     { className: "derby_hotel" },
     { className: "burke_hotel" },
     { className: "kennedy_hotel" },
     { className: "cedar_point_hotel" },
     { className: "stanleys_hotel" },
     { className: "potawatomi_summer_camp" },
+    { className: "yacht_club" },
+    { className: "pleasant_valley" },
+    { className: "gerbings" },
+    { className: "colemans_hotel" },
+    { className: "cedar_beach_hotel" },
+    { className: "john_adams_hotel" },
   ];
 
   return (
@@ -102,7 +108,7 @@ export default function Map() {
               {/* Conditionally render pinIcon */}
               {!hiddenPinIcons.includes(pinpoint.className) && (
                 <IonIcon
-                  icon={pin}
+                  icon={pinpoint.className === "yacht_club" ? boat : pin}
                   className={`pinIcon ${
                     pinpoint.className === "midway_gardens" ? "yellowPin" : ""
                   }`}

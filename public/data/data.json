@@ -135,10 +135,6 @@
       "The operation of the park continued as it had at the former site. Unfortunately, the pick-pocketing and fights continued. In 1912, the railroad officials were fed up with the conditions. Associate Pastor E.Y. Woolley of Moody Bible Church was on a passenger train in 1914 heading back to Chicago and had stopped briefly at Cedar Lake. He inquired about the place and in the same year, met with Frederic Delano, President of the Monon Railroad. An agreement was made and Moody Church became the new manager of Monon Park. There was a condition that if the church proved to be a worthy manager, within five years, the railroad would sell it to the church. In 1919, the railroad sold Monon Park to Moody Bible Church for $1.00. By 1923, the Cedar Lake Conference Association was incorporated under three elders of Moody Bible Church. The Conference Grounds is now known as Cedar Lake Ministries. Torrey Auditorium, the old beer-stand and dancing pavilion, was placed on the National Register of Historic Places in 2001."
     ],
     "images": [
-      "/assets/CLHA/modal/MononParkSite1.jpg",
-      "/assets/CLHA/modal/MononParkSite1_NobleOaksShore.jpg",
-      "/assets/CLHA/modal/MononParkSite1ad.jpg",
-      "/assets/CLHA/modal/MononParkSite1ad_b.jpg",
       "/assets/CLHA/modal/MononPark2_ConfGround.jpeg",
       "/assets/CLHA/modal/MononPark2_footbridge.jpeg",
       "/assets/CLHA/modal/MononPark2footbridge.jpg",
@@ -431,15 +427,6 @@
   },
   {
     "id": 34,
-    "name": "Cedar Lake Yacht Club",
-    "time": "ca. 1934 - Present",
-    "description": [
-      "On July 21, 1934, the Cedar Lake Yacht Club was organized at Surprise Park Golf and Boat Club at the south end of Cedar Lake. W.P Dudley, Commodore, was the founder. The first race occurred on 22 July, 1934. The club was incorporated on May 8, 1935. For the first few years, races were not restricted to one class of boat. In 1944, the club had 14 E-scows racing. There was no racing in 1945, but resumed in 1946. The club was inactive from 1952-1956 due to the difficult economy after WWII. In 1958, the Ben-Ric-Way Corporation was formed and in 1959 the current building and grounds were purchased with the corporation as the owner. In 1964, Ben-Ric-Way decided that the facilities should be owned by the general membership. The clubhouse is the former home of Chris Lassen who managed Lassen's Resort. The tradition of the Cedar Lake Yacht Club continues with the Ice-Breaker Regatta every May. "
-    ],
-    "images": []
-  },
-  {
-    "id": 35,
     "name": "Potawatomi Summer Camp",
     "time": "ca. Unknown / 1600s - Until about 1836",
     "description": [
@@ -461,5 +448,65 @@
       "/assets/CLHA/modal/Potawatomi03.jpeg",
       "/assets/CLHA/modal/Potawatomi04.png"
     ]
+  },
+  {
+    "id": 35,
+    "name": "Cedar Lake Yacht Club",
+    "time": "ca. 1934 - Present",
+    "description": [
+      "On July 21, 1934, the Cedar Lake Yacht Club was organized at Surprise Park Golf and Boat Club at the south end of Cedar Lake. W.P Dudley, Commodore, was the founder. The first race occurred on 22 July, 1934. The club was incorporated on May 8, 1935. For the first few years, races were not restricted to one class of boat. In 1944, the club had 14 E-scows racing. There was no racing in 1945, but resumed in 1946. The club was inactive from 1952-1956 due to the difficult economy after WWII. In 1958, the Ben-Ric-Way Corporation was formed and in 1959 the current building and grounds were purchased with the corporation as the owner. In 1964, Ben-Ric-Way decided that the facilities should be owned by the general membership. The clubhouse is the former home of Chris Lassen who managed Lassen's Resort. The tradition of the Cedar Lake Yacht Club continues with the Ice-Breaker Regatta every May. "
+    ],
+    "images": []
+  },
+  {
+    "id": 36,
+    "name": "Pleasant Valley (Monon Park site #1) ",
+    "time": "ca. 1881-1895",
+    "description": [
+      "When the Monon Railroad was completed through Cedar Lake in 1881, railroad officials recognized Cedar Lake's beauty and its potential to be utilized like Lake Geneva, Wisconsin. The railroad created a recreation park at Cedar Lake to increase the ridership of their passenger trains and increase profits for the railroad. The first location of Monon Park was in what is now known as Noble Oaks Subdivision, on land once owned by John Du Breuill. The railroad leased the land from Mr. Du Breuill and asked him to build a pier and maintain 40 rowboats. He also built a hotel on his property and a dance hall. Monon Park served guests in a carnival style, with a midway and a variety of vendors selling cold drinks, ice cream and other novelties.",
+
+      "The link to Chicago brought gamblers, pick-pockets, and other criminals on the Monon too. With the consumption of alcoholic beverages, fights were common. Chicago policemen came to police the area and they clashed with the jurisdiction of local authorities. By 1895, as many five passenger trains stopped here daily. Monon Park was becoming overcrowded. When Mr. Du Breuill died and his estate was being split up by his heirs, the railroad had to look for a new location."
+    ],
+    "images": [
+      "/assets/CLHA/modal/MononParkSite1.jpg",
+      "/assets/CLHA/modal/MononParkSite1_NobleOaksShore.jpg",
+      "/assets/CLHA/modal/MononParkSite1ad.jpg",
+      "/assets/CLHA/modal/MononParkSite1ad_b.jpg"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Gerbing's",
+    "time": "(Date)",
+    "description": ["(Details coming soon)"],
+    "images": ["/assets/CLHA/modal/Gerbings.jpeg"]
+  },
+  {
+    "id": 38,
+    "name": "Coleman's Hotel",
+    "time": "(Date)",
+    "description": ["(Details coming soon)"],
+    "images": [
+      "/assets/CLHA/modal/Colemans_RaysRoadhouse1909.jpeg",
+      "/assets/CLHA/modal/Colemans_RaysRoadHouse1912.jpeg",
+      "/assets/CLHA/modal/Colemans1980s.jpeg"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Cedar Beach Hotel",
+    "time": "(Date)",
+    "description": ["(Details coming soon)"],
+    "images": [
+      "/assets/CLHA/modal/CedarBeach_firstSebastianEinseleHotel.jpeg",
+      "/assets/CLHA/modal/CedarBeach_secondSpanierHotel.jpeg"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "John Adams Hotel",
+    "time": "(Date)",
+    "description": ["(Details coming soon)"],
+    "images": []
   }
 ]
