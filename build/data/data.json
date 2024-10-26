@@ -477,15 +477,19 @@
   {
     "id": 37,
     "name": "Gerbing's",
-    "time": "(Date)",
-    "description": ["(Details coming soon)"],
+    "time": "ca. early 1900s",
+    "description": [
+      "William Gerbing of the village of Brunswick and his family ran the Brunswick Corner Saloon now known as Reichert’s Tavern in the years after 1900. William and his family soon moved closer to Cedar Lake, where William built a combination home and saloon just south of the Einsele Hotel and a block west of the Monon Depot. Edelweiss Beer, brewed by the Peter Schoenhofen Brewing Company of Chicago, was served and advertised here. Being located next to the Einsele Hotel probably helped its business."
+    ],
     "images": ["/assets/CLHA/modal/Gerbings.jpeg"]
   },
   {
     "id": 38,
     "name": "Coleman's Hotel",
-    "time": "(Date)",
-    "description": ["(Details coming soon)"],
+    "time": "ca. 1908-1989",
+    "description": [
+      "About 1908, “Diamond” James Ray built a hotel building known as Ray’s Roadhouse. Ray was notorious for removing diamond rings from the hands of female patrons and was one of the many criminals on Chicago’s wanted list. By the 1920s, Robert Russell bought the building and it became a house of ill repute. During Prohibition, Russell operated a “soda parlor” in the establishment. According to local legend, John Dillinger  visited the bar frequently. During the Great Depression, Russell’s offered free chicken with a beer every Saturday night. In 1933, Karl and Della Coleman bought Russell’s. Roscoe, Karl and Della’s son, eventually assumed operations with his wife, Mary. She had answered a help wanted advertisement and waited tables for eight years at the hotel restaurant before she married Roscoe. Coleman’s Hotel was well-known for its fried chicken.  In 1989, Al Bunge, Jr., purchased the property and built Lake Shore True Value Hardware in place of the hotel. Because of the influence that the Coleman family had on the community, the corner where the hotel once stood is still referred to as Coleman’s Corner."
+    ],
     "images": [
       "/assets/CLHA/modal/Colemans_RaysRoadhouse1909.jpeg",
       "/assets/CLHA/modal/Colemans_RaysRoadHouse1912.jpeg",
@@ -495,8 +499,10 @@
   {
     "id": 39,
     "name": "Cedar Beach Hotel",
-    "time": "(Date)",
-    "description": ["(Details coming soon)"],
+    "time": "ca. 1898-Present Day",
+    "description": [
+      "Sebastian Einsele of the village of Brunswick built a resort at 13930 Lauerman Avenue in 1898. It consisted of a hotel and saloon, where dining, dancing and drinking took place. It also had a grove, where many held picnics. The hotel also had a telephone and not too soon after the business started, the resort was worth about $10,000. It was about 1,000 feet from the Monon Depot landing. Sebastian and his wife, Katherine, raised 10 children in the building while they ran the hotel. By about 1908 to the 1920s, John Spanier owned the hotel and it was known as Spanier’s Hotel. From the 1920s to the 1950s, John Stasaitis assumed ownership and operated it as the Cedar Beach Hotel. He was well known for his Fourth of July parties where he gave chop suey to the customers for free. In the 1970s, Louis Wislocki, Hanover Township Trustee, purchased the property and named it the Hanover House. During the 1980s and 1990s, it primarily served as apartments. In 2004, it became the Cedar Beach Arts Center, which operated until about 2013. It is privately owned today."
+    ],
     "images": [
       "/assets/CLHA/modal/CedarBeach_firstSebastianEinseleHotel.jpeg",
       "/assets/CLHA/modal/CedarBeach_secondSpanierHotel.jpeg"
@@ -505,8 +511,8 @@
   {
     "id": 40,
     "name": "John Adams Hotel",
-    "time": "(Date)",
-    "description": ["(Details coming soon)"],
+    "time": "ca. ealy 1900s",
+    "description": "The John Adams Hotel was probably built sometime in the early 1900s and was in the heart of present-day Meyer Manor subdivision. It was north of Armour Town, where Armour and Company and the Consumers Company had their ice houses. John and Anna operated the two-story frame building where they had a restaurant, tavern, and sleeping quarters. Anna made steaming hot turtle soup and served it with homemade sausage and Bohemian rye sandwiches for 25 cents. A cold beer completed the meal. At one time, the John Adams Hotel was popular as a \"politicians hideout.\"",
     "images": []
   }
 ]
