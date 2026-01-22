@@ -14,6 +14,7 @@ import {
   IonCardSubtitle,
   IonImg,
   IonIcon,
+  IonSpinner,
 } from "@ionic/react";
 import "./Map.css";
 import { pin, boat } from "ionicons/icons";
@@ -22,6 +23,8 @@ export default function Map() {
   const [mapData, setMapData] = useState([]);
   const [pinpoint, setPinpoint] = useState(0);
   const [showModal, setShowModal] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   // Array of class names that should not display the pin icon
   const hiddenPinIcons = [
@@ -31,12 +34,23 @@ export default function Map() {
   ];
 
   useEffect(() => {
+    setLoading(true);
     fetch("data/data.json")
-      .then((response) => response.json())
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to load resort data");
+        }
+        return response.json();
+      })
       .then((data) => {
         setMapData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
       });
-  }, [pinpoint]);
+  }, []);
 
   const pinpointList = [
     { className: "lassens_resort" },
@@ -86,65 +100,102 @@ export default function Map() {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Resorts of Cedar Lake</IonTitle>
+          <IonTitle>
+            <span className="map-header-title">Resorts of Cedar Lake</span>
+          </IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        <div className="mapPinpoints">
-          <IonImg
-            src="/assets/CLHA/Resort_Map_wall-min.jpg"
-            className="mapImg"
-          ></IonImg>
+        {loading && (
+          <div style={{ 
+            display: 'flex', 
+            flexDirection: 'column',
+            justifyContent: 'center', 
+            alignItems: 'center', 
+            height: '100%',
+            gap: '20px'
+          }}>
+            <IonSpinner name="crescent" color="medium" style={{ transform: 'scale(1.5)' }} />
+            <p style={{ 
+              fontFamily: 'CenturyGothic, serif',
+              color: '#234735',
+              fontSize: '1.1rem',
+              letterSpacing: '2px',
+              textTransform: 'uppercase'
+            }}>Loading Historical Data...</p>
+          </div>
+        )}
+        
+        {error && (
+          <div style={{ padding: '20px', textAlign: 'center', color: 'red' }}>
+            <p>Error loading resort data: {error}</p>
+            <IonButton onClick={() => window.location.reload()}>Retry</IonButton>
+          </div>
+        )}
+        
+        {!loading && !error && (
+        <>
+          <div className="mapPinpoints">
+            {/* Temporarily commented out for performance testing */}
+            {/* <IonImg
+              src="/assets/CLHA/Resort_Map_wall-min.jpg"
+              className="mapImg"
+            ></IonImg> */}
+            
+            {/* Placeholder matching image dimensions */}
+            <div className="mapImg mapPlaceholder"></div>
 
-          {pinpointList.map((pinpoint, index) => (
-            <div
-              className={`pinpoint ${pinpoint.className}`}
-              onClick={() => {
-                setPinpoint(index);
-                setShowModal(true);
-              }}
-              key={index}
-            >
-              {/* Conditionally render pinIcon */}
-              {!hiddenPinIcons.includes(pinpoint.className) && (
-                <IonIcon
-                  icon={pinpoint.className === "yacht_club" ? boat : pin}
-                  className={`pinIcon ${
-                    pinpoint.className === "midway_gardens" ? "yellowPin" : ""
-                  }`}
-                />
-              )}
-            </div>
-          ))}
-        </div>
+            {pinpointList.map((pinpoint, index) => (
+              <div
+                className={`pinpoint ${pinpoint.className}`}
+                onClick={() => {
+                  setPinpoint(index);
+                  setShowModal(true);
+                }}
+                key={index}
+              >
+                {/* Conditionally render pinIcon */}
+                {!hiddenPinIcons.includes(pinpoint.className) && (
+                  <IonIcon
+                    icon={pinpoint.className === "yacht_club" ? boat : pin}
+                    className={`pinIcon ${
+                      pinpoint.className === "midway_gardens" ? "yellowPin" : ""
+                    }`}
+                  />
+                )}
+              </div>
+            ))}
+          </div>
 
-        {mapData.length > 1 && (
-          <IonModal isOpen={showModal} onDidDismiss={() => setShowModal(false)}>
-            <IonContent>
-              <IonCard>
-                <IonCardHeader>
-                  <IonButton
-                    className="modal_button"
-                    onClick={() => setShowModal(false)}
-                  >
-                    Close
-                  </IonButton>
-                  <IonCardSubtitle className="modal_subtitle">
-                    {mapData[pinpoint].time}
-                  </IonCardSubtitle>
-                  <IonCardTitle className="modal_title">
-                    {mapData[pinpoint].name}
-                  </IonCardTitle>
-                </IonCardHeader>
-                {mapData[pinpoint].description.map((paragraph) => (
-                  <IonCardContent>{paragraph}</IonCardContent>
-                ))}
-                {mapData[pinpoint].images.map((image) => (
-                  <IonImg className="modalImage" src={image}></IonImg>
-                ))}
-              </IonCard>
-            </IonContent>
-          </IonModal>
+          {mapData.length > 1 && (
+            <IonModal isOpen={showModal} onDidDismiss={() => setShowModal(false)}>
+              <IonContent>
+                <IonCard>
+                  <IonCardHeader>
+                    <IonButton
+                      className="modal_button"
+                      onClick={() => setShowModal(false)}
+                    >
+                      Close
+                    </IonButton>
+                    <IonCardSubtitle className="modal_subtitle">
+                      {mapData[pinpoint].time}
+                    </IonCardSubtitle>
+                    <IonCardTitle className="modal_title">
+                      {mapData[pinpoint].name}
+                    </IonCardTitle>
+                  </IonCardHeader>
+                  {mapData[pinpoint].description.map((paragraph, idx) => (
+                    <IonCardContent key={idx}>{paragraph}</IonCardContent>
+                  ))}
+                  {mapData[pinpoint].images.map((image, idx) => (
+                    <IonImg key={idx} className="modalImage" src={image}></IonImg>
+                  ))}
+                </IonCard>
+              </IonContent>
+            </IonModal>
+          )}
+        </>
         )}
       </IonContent>
     </IonPage>

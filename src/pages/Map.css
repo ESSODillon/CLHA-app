@@ -1,3 +1,12 @@
+/* Map Page Header Enhancement */
+.map-header-title {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* Remove inline decorations - using header-level diamonds instead */
+
 .mapPinpoints {
   position: relative;
   height: 204vw;
@@ -10,23 +19,159 @@
   width: 100%;
   object-fit: cover;
   z-index: 15;
+  /* Improve image rendering performance */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* Temporary placeholder for performance testing */
+.mapPlaceholder {
+  background: linear-gradient(135deg, #e0e0e0 25%, transparent 25%),
+              linear-gradient(225deg, #e0e0e0 25%, transparent 25%),
+              linear-gradient(45deg, #e0e0e0 25%, transparent 25%),
+              linear-gradient(315deg, #e0e0e0 25%, #f5f5f5 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  background-repeat: repeat;
+  position: relative;
+}
+
+.mapPlaceholder::before {
+  content: "Map Image Disabled for Testing";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px 40px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 100;
 }
 
 .modal_button {
   float: right;
+  margin: 8px;
+  --background: linear-gradient(135deg, #234735 0%, #2d5a42 100%);
+  --background-hover: linear-gradient(135deg, #2d5a42 0%, #234735 100%);
+  --color: #f5e6d3;
+  --border-radius: 8px;
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-family: 'CenturyGothic', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
 }
 
 .modal_subtitle {
   width: 75%;
+  color: #8b7823;
+  font-style: italic;
+  font-family: 'CenturyGothic', serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 .modal_title {
   width: 75%;
+  font-weight: bold;
+  margin-top: 8px;
+  font-family: 'CenturyGothic', serif;
+  font-size: 1.5rem;
+  color: #234735;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+  border-bottom: 2px solid #c8b72e;
+  padding-bottom: 8px;
+}
+
+ion-modal {
+  --border-radius: 16px;
+  --box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+ion-modal ion-content {
+  --background: linear-gradient(135deg, #faf8f3 0%, #f5f0e8 100%);
+}
+
+ion-card {
+  margin: 0;
+  box-shadow: none;
+  --background: transparent;
+  border: 2px solid #c8b72e;
+  border-radius: 12px;
+  position: relative;
+}
+
+ion-card::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #c8b72e, transparent);
+}
+
+ion-card::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #c8b72e, transparent);
+}
+
+ion-card-header {
+  border-bottom: 1px solid rgba(200, 183, 46, 0.3);
+  background: linear-gradient(135deg, rgba(35, 71, 53, 0.05) 0%, rgba(45, 90, 66, 0.05) 100%);
+  position: relative;
+}
+
+ion-card-content {
+  font-family: 'CenturyGothic', serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #2d3c2e;
+  padding: 16px 20px;
+  text-align: justify;
+  border-top: 1px dotted rgba(200, 183, 46, 0.2);
+}
+
+ion-card-content:first-of-type {
+  border-top: none;
+  margin-top: 8px;
 }
 
 .modalImage {
   width: 90%;
   margin: 25px auto;
+  /* Lazy loading placeholder background */
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s ease-in-out infinite;
+  min-height: 200px;
+  border-radius: 8px;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.modalImage img {
+  display: block;
+  border-radius: 8px;
 }
 
 .pinpoint {
@@ -36,6 +181,17 @@
   opacity: 0.5; */
   position: absolute;
   cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.pinpoint:hover {
+  transform: scale(1.15);
+  z-index: 25;
+  opacity: 1;
+}
+
+.pinpoint:active {
+  transform: scale(0.95);
 }
 
 .mapPinpoints .pinpoint {
@@ -50,6 +206,14 @@
   top: 50%;
   left: -10%;
   transform: translateY(-50%);
+  transition: all 0.2s ease;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.pinpoint:hover .pinIcon {
+  color: #c8b72e;
+  font-size: 2.3vw;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
 }
 
 .yellowPin {

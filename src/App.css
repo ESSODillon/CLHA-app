@@ -1,0 +1,211 @@
+/* Vintage Historical Theme Styling */
+
+@font-face {
+  font-family: 'AbrahamLincoln';
+  src: url('../public/assets/fonts/AbrahamLincoln.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('../public/assets/fonts/CenturyGothic.ttf') format('truetype');
+}
+
+/* Header Styling */
+ion-header ion-toolbar {
+  --background: linear-gradient(135deg, #234735 0%, #2d5a42 50%, #234735 100%);
+  --border-color: #c8b72e;
+  --border-width: 0 0 3px 0;
+  --border-style: solid;
+  --min-height: 70px;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+ion-header ion-toolbar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    #c8b72e 10%, 
+    #c8b72e 90%, 
+    transparent 100%);
+}
+
+ion-header ion-toolbar::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: repeating-linear-gradient(
+    90deg,
+    #c8b72e 0px,
+    #c8b72e 10px,
+    #8b7823 10px,
+    #8b7823 11px,
+    transparent 11px,
+    transparent 13px
+  );
+}
+
+ion-header ion-title {
+  font-family: 'CenturyGothic', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #f5e6d3;
+  text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.6),
+    0 0 10px rgba(200, 183, 46, 0.3);
+  padding: 20px 0;
+}
+
+/* Header styling - diamonds removed */
+ion-header {
+  position: relative;
+}
+
+/* Footer/Tab Bar Styling */
+ion-tab-bar {
+  --background: linear-gradient(180deg, #2d3c2e 0%, #1f2b20 100%);
+  --border: 3px solid #c8b72e;
+  height: 75px;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+ion-tab-bar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    #c8b72e 20%, 
+    #c8b72e 80%, 
+    transparent 100%);
+}
+
+ion-tab-bar::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: repeating-linear-gradient(
+    90deg,
+    #8b7823 0px,
+    #8b7823 8px,
+    transparent 8px,
+    transparent 12px
+  );
+}
+
+.custom-tab-button {
+  --color: #bed2c7;
+  --color-selected: #c8b72e;
+  --ripple-color: rgba(200, 183, 46, 0.3);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.custom-tab-button::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background: #c8b72e;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 8px rgba(200, 183, 46, 0.6);
+}
+
+.custom-tab-button:hover::before,
+.custom-tab-button.tab-selected::before {
+  width: 60%;
+}
+
+.custom-tab-button ion-icon {
+  font-size: 1.8rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
+  transition: all 0.3s ease;
+}
+
+.custom-tab-button:hover ion-icon,
+.custom-tab-button.tab-selected ion-icon {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 8px rgba(200, 183, 46, 0.8));
+}
+
+.custom-tab-button ion-label {
+  font-family: 'CenturyGothic', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 4px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.custom-tab-button:hover {
+  --color: #f5e6d3;
+}
+
+/* Vintage dividers between tabs */
+.custom-tab-button:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 20%;
+  height: 60%;
+  width: 1px;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(200, 183, 46, 0.3) 20%,
+    rgba(200, 183, 46, 0.5) 50%,
+    rgba(200, 183, 46, 0.3) 80%,
+    transparent 100%
+  );
+}
+
+/* Active tab highlighting */
+.custom-tab-button.tab-selected {
+  --color: #c8b72e;
+  background: linear-gradient(
+    180deg,
+    rgba(200, 183, 46, 0.1) 0%,
+    rgba(200, 183, 46, 0.05) 100%
+  );
+}
+
+/* Add vintage texture overlay */
+ion-tab-bar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.03) 2px,
+      rgba(0, 0, 0, 0.03) 4px
+    );
+  pointer-events: none;
+  opacity: 0.5;
+}
