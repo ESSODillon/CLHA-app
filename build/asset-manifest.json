@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "./static/css/main.12af11c0.css",
+    "main.js": "./static/js/main.7016e7f3.js",
+    "static/js/284.c74267df.chunk.js": "./static/js/284.c74267df.chunk.js",
+    "static/js/867.83fbe748.chunk.js": "./static/js/867.83fbe748.chunk.js",
+    "static/js/923.9d866ecf.chunk.js": "./static/js/923.9d866ecf.chunk.js",
+    "static/js/627.a8c233dc.chunk.js": "./static/js/627.a8c233dc.chunk.js",
+    "static/js/938.23caba28.chunk.js": "./static/js/938.23caba28.chunk.js",
+    "static/js/247.0681f089.chunk.js": "./static/js/247.0681f089.chunk.js",
+    "static/js/82.eca89d50.chunk.js": "./static/js/82.eca89d50.chunk.js",
+    "static/js/834.d7834846.chunk.js": "./static/js/834.d7834846.chunk.js",
+    "static/js/422.53eed1f5.chunk.js": "./static/js/422.53eed1f5.chunk.js",
+    "static/media/CenturyGothic.ttf": "./static/media/CenturyGothic.b1b792bab1bff8f27ba7.ttf",
+    "static/media/AbrahamLincoln.ttf": "./static/media/AbrahamLincoln.dfdbd4d59c4b8a97cdb4.ttf",
+    "service-worker.js": "./service-worker.js",
+    "index.html": "./index.html",
+    "main.12af11c0.css.map": "./static/css/main.12af11c0.css.map",
+    "main.7016e7f3.js.map": "./static/js/main.7016e7f3.js.map",
+    "284.c74267df.chunk.js.map": "./static/js/284.c74267df.chunk.js.map",
+    "867.83fbe748.chunk.js.map": "./static/js/867.83fbe748.chunk.js.map",
+    "923.9d866ecf.chunk.js.map": "./static/js/923.9d866ecf.chunk.js.map",
+    "627.a8c233dc.chunk.js.map": "./static/js/627.a8c233dc.chunk.js.map",
+    "938.23caba28.chunk.js.map": "./static/js/938.23caba28.chunk.js.map",
+    "247.0681f089.chunk.js.map": "./static/js/247.0681f089.chunk.js.map",
+    "82.eca89d50.chunk.js.map": "./static/js/82.eca89d50.chunk.js.map",
+    "834.d7834846.chunk.js.map": "./static/js/834.d7834846.chunk.js.map",
+    "422.53eed1f5.chunk.js.map": "./static/js/422.53eed1f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12af11c0.css",
+    "static/js/main.7016e7f3.js"
+  ]
+}
