@@ -512,7 +512,9 @@
     "id": 40,
     "name": "John Adams Hotel",
     "time": "ca. ealy 1900s",
-    "description": "The John Adams Hotel was probably built sometime in the early 1900s and was in the heart of present-day Meyer Manor subdivision. It was north of Armour Town, where Armour and Company and the Consumers Company had their ice houses. John and Anna operated the two-story frame building where they had a restaurant, tavern, and sleeping quarters. Anna made steaming hot turtle soup and served it with homemade sausage and Bohemian rye sandwiches for 25 cents. A cold beer completed the meal. At one time, the John Adams Hotel was popular as a \"politicians hideout.\"",
+    "description": [
+      "The John Adams Hotel was probably built sometime in the early 1900s and was in the heart of present-day Meyer Manor subdivision. It was north of Armour Town, where Armour and Company and the Consumers Company had their ice houses. John and Anna operated the two-story frame building where they had a restaurant, tavern, and sleeping quarters. Anna made steaming hot turtle soup and served it with homemade sausage and Bohemian rye sandwiches for 25 cents. A cold beer completed the meal. At one time, the John Adams Hotel was popular as a \"politicians hideout.\""
+    ],
     "images": []
   }
 ]
