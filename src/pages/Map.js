@@ -137,13 +137,13 @@ export default function Map() {
         <>
           <div className="mapPinpoints">
             {/* Temporarily commented out for performance testing */}
-            {/* <IonImg
-              src="/assets/CLHA/Resort_Map_wall-min.jpg"
-              className="mapImg"
-            ></IonImg> */}
+              <IonImg
+                src="/assets/CLHA/Resort_Map_wall.webp"
+                className="mapImg"
+              ></IonImg>
             
             {/* Placeholder matching image dimensions */}
-            <div className="mapImg mapPlaceholder"></div>
+            {/* <div className="mapImg mapPlaceholder"></div> */} 
 
             {pinpointList.map((pinpoint, index) => (
               <div
