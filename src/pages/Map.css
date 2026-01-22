@@ -492,14 +492,15 @@ ion-card-content:first-of-type {
   left: 69vw;
 }
 
-/* This one specifically needs a yellow triangle in the center of it */
+/* Potawatomi Summer Camp with logo image */
 .potawatomi_summer_camp {
   height: 2vw;
   width: 3vw;
   top: 71vw;
   left: 86vw;
-  background-color: #c8b72e;
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .yacht_club {

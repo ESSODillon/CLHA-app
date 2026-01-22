@@ -148,6 +148,11 @@ export default function Map() {
             {pinpointList.map((pinpoint, index) => (
               <div
                 className={`pinpoint ${pinpoint.className}`}
+                style={
+                  pinpoint.className === "potawatomi_summer_camp"
+                    ? { backgroundImage: "url(/assets/CLHA/PotawatomiCedarLakeLockup.png)" }
+                    : {}
+                }
                 onClick={() => {
                   setPinpoint(index);
                   setShowModal(true);
